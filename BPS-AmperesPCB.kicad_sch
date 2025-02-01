@@ -3674,7 +3674,7 @@
 		(uuid "6f09ba0d-cec9-40b4-a181-aa571fa955db")
 	)
 	(junction
-		(at 124.46 156.21)
+		(at 125.73 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7531f9b6-90ed-47bc-82e9-85402bbadea6")
@@ -3716,7 +3716,7 @@
 		(uuid "a4a857df-8099-4715-ba80-97cb8e67935f")
 	)
 	(junction
-		(at 124.46 148.59)
+		(at 125.73 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a756f70e-77a7-49b9-9601-ac44f9431751")
@@ -3803,7 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 148.59) (xy 124.46 148.59)
+			(xy 129.54 148.59) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3880,6 +3880,16 @@
 			(type default)
 		)
 		(uuid "1487ebc7-130a-41ad-b437-c35ad687265e")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de7e661-9dd0-413c-9afd-4494ed12e0fd")
 	)
 	(wire
 		(pts
@@ -4013,7 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 124.46 148.59)
+			(xy 99.06 148.59) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4393,6 +4403,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 53.34) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9091e19-340e-476f-ae33-178a0d281445")
+	)
+	(wire
+		(pts
 			(xy 223.52 40.64) (xy 227.33 40.64)
 		)
 		(stroke
@@ -4613,7 +4633,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 156.21) (xy 124.46 156.21)
+			(xy 129.54 156.21) (xy 125.73 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4820,6 +4840,16 @@
 			(type default)
 		)
 		(uuid "fdf5ab66-61fc-4393-80fb-229a75809dd4")
+	)
+	(wire
+		(pts
+			(xy 144.78 31.75) (xy 144.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea97d6c-5aba-4ad0-bab2-60543a2af164")
 	)
 	(text "Maximum Voltage Protected: -2.7V - 6V"
 		(exclude_from_sim no)
@@ -5311,6 +5341,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 144.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bb0a06f-9162-49b0-97f3-c80cf3f0abdd")
+		(property "Reference" "R9"
+			(at 146.558 36.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 146.558 39.243 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.002 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "SDR10EZPJ152"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cbbcfc4-a9eb-424e-897e-41ea9b10decc")
+		)
+		(pin "2"
+			(uuid "9c0f39ed-ff03-407b-99d0-e698d3c6f1ce")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "utsvt-power-regulators:RO-123.3S_HP")
 		(at 69.85 39.37 0)
 		(unit 1)
@@ -5735,6 +5843,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a001d65-396d-47e5-ae96-ec8f80f2ba5b")
+		(property "Reference" "#PWR031"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND High"
+			(at 144.907 61.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "805aa3d2-8331-4353-bea1-842c6f1ccac8")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 88.9 35.56 0)
 		(unit 1)
@@ -6073,7 +6246,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 128.27 156.21 270)
+		(at 129.54 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6081,7 +6254,7 @@
 		(dnp no)
 		(uuid "38d3f8d3-4982-4d9e-a262-0c94641f70cf")
 		(property "Reference" "GND1"
-			(at 133.35 155.448 90)
+			(at 134.62 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6263,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 133.35 157.988 90)
+			(at 134.62 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6272,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 128.27 161.29 0)
+			(at 129.54 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 161.29 0)
+			(at 129.54 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6290,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 128.27 156.21 0)
+			(at 129.54 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6457,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 124.46 148.59 0)
+		(at 125.73 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6293,7 +6466,7 @@
 		(fields_autoplaced yes)
 		(uuid "48759626-efb2-482f-a82e-545f5553e2a6")
 		(property "Reference" "#PWR08"
-			(at 124.46 152.4 0)
+			(at 125.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6475,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 143.51 0)
+			(at 125.73 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 148.59 0)
+			(at 125.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 148.59 0)
+			(at 125.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 148.59 0)
+			(at 125.73 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,35 +7695,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 124.46 152.4 0)
+		(lib_id "Device:LED")
+		(at 144.78 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "928d80ab-70bc-4336-aad1-0728b0fb21e4")
-		(property "Reference" "C3"
-			(at 128.27 151.1299 0)
+		(uuid "8ba69677-a863-4c15-a782-bd16f578e346")
+		(property "Reference" "D4"
+			(at 147.7772 48.5394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1uF"
-			(at 128.27 153.6699 0)
+		(property "Value" "PowerOn"
+			(at 147.7772 50.8508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 125.4252 156.21 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 144.78 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7731,86 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 152.4 0)
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "APTD2012LCGCK"
+			(at 144.78 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99c81a95-c424-408e-abd7-4dcb3383820a")
+		)
+		(pin "2"
+			(uuid "26d7de84-3e81-4656-93a0-2d560a17b0e4")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928d80ab-70bc-4336-aad1-0728b0fb21e4")
+		(property "Reference" "C3"
+			(at 129.54 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 129.54 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 126.6952 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7819,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.46 152.4 0)
+			(at 125.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +9056,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 124.46 156.21 0)
+		(at 125.73 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8813,7 +9064,7 @@
 		(dnp no)
 		(uuid "d1e178db-a8f1-4462-93d9-ccf5c69b3827")
 		(property "Reference" "#PWR07"
-			(at 124.46 162.56 0)
+			(at 125.73 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +9073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 160.274 0)
+			(at 125.73 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +9081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 156.21 0)
+			(at 125.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +9090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 156.21 0)
+			(at 125.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,7 +9099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 156.21 0)
+			(at 125.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9868,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 128.27 148.59 270)
+		(at 129.54 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9625,7 +9876,7 @@
 		(dnp no)
 		(uuid "ede3a6b2-2bf7-42e4-93f6-bdc651c6684d")
 		(property "Reference" "+3V3"
-			(at 133.35 147.828 90)
+			(at 134.62 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9885,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 133.35 150.368 90)
+			(at 134.62 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9894,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 128.27 153.67 0)
+			(at 129.54 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 153.67 0)
+			(at 129.54 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9912,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 128.27 148.59 0)
+			(at 129.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10116,6 +10367,71 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb973a64-d7de-4d21-af86-10c652747d54")
+		(property "Reference" "#PWR030"
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3 High"
+			(at 145.161 27.3558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70464cf8-4d6f-4825-a28e-50a7d4231a03")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
