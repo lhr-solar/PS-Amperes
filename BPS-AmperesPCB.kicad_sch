@@ -4924,6 +4924,16 @@
 		)
 		(uuid "698959da-a39d-46d6-8fe1-c5c0d4096261")
 	)
+	(text "303mA"
+		(exclude_from_sim no)
+		(at 75.184 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "760e0184-8731-4c06-9a55-4b991cfeef5a")
+	)
 	(text "Input Voltage Range: 0V - 0.03V"
 		(exclude_from_sim no)
 		(at 57.15 160.274 0)
