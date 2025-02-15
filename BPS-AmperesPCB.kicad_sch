@@ -5286,6 +5286,16 @@
 		)
 		(uuid "063f459b-2043-470f-8822-c9fd8dc6e2cf")
 	)
+	(label "OUTN"
+		(at 151.13 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0918ae8d-19d4-4d64-9ea4-79f775225400")
+	)
 	(label "MISO"
 		(at 270.51 76.2 180)
 		(effects
@@ -5315,6 +5325,16 @@
 			(justify right bottom)
 		)
 		(uuid "2c3b1e54-1355-47ea-8dbb-7a09bc73fcb8")
+	)
+	(label "OUTP"
+		(at 151.13 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e94c26e-2d09-4125-b914-4289d5444c39")
 	)
 	(label "INN"
 		(at 85.09 163.83 0)
@@ -5375,26 +5395,6 @@
 			(justify right bottom)
 		)
 		(uuid "c1a15bb1-16b8-4e81-adeb-80956566ec32")
-	)
-	(label "OUTN"
-		(at 151.13 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd4aeca5-d310-4dbb-88d7-5c435d890057")
-	)
-	(label "OUTP"
-		(at 151.13 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d49f906e-4873-404f-a063-4f810d5cfc46")
 	)
 	(label "OUTP"
 		(at 113.03 158.75 180)
