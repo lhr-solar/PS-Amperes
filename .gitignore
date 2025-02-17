@@ -29,3 +29,7 @@ fp-info-cache
 *.csv
 
 ~*
+
+*.lck
+
+*/production
