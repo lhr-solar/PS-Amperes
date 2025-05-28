@@ -1,9 +1,11 @@
 (sym_lib_table
   (version 7)
   (lib (name "utsvt-connectors")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_connectors.kicad_sym")(options "")(descr ""))
-  (lib (name "usvt-ics")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_ics.kicad_sym")(options "")(descr ""))
+  (lib (name "utsvt-ics")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_ics.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-misc")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_misc.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-power")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Bild/utsvt_power.kicad_sym")(options "")(descr ""))
   (lib (name "INA229")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_INA229AIDGSR/INA229.kicad_sym")(options "")(descr ""))
   (lib (name "AMC1300")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_AMC1300BDWV/AMC1300.kicad_sym")(options "")(descr ""))
+  (lib (name "INA145")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_INA145UA-2K5/KiCADv6/2025-01-18_20-57-35.kicad_sym")(options "")(descr ""))
+  (lib (name "RBE01")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_RBE01VYM6AFHTR/RBE01VYM6AFHTR.kicad_sym")(options "")(descr ""))
 )

@@ -637,6 +637,14 @@
     [
       "a452d214-ea00-440d-a445-5d6103fda43a",
       "Root"
+    ],
+    [
+      "ab38cece-3385-4a36-918e-60632a85b718",
+      "Peripherals"
+    ],
+    [
+      "974ab00b-157a-498d-9c16-0b3583fca01d",
+      "CAN"
     ]
   ],
   "text_variables": {}
