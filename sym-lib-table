@@ -8,4 +8,5 @@
   (lib (name "AMC1300")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_AMC1300BDWV/AMC1300.kicad_sym")(options "")(descr ""))
   (lib (name "INA145")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_INA145UA-2K5/KiCADv6/2025-01-18_20-57-35.kicad_sym")(options "")(descr ""))
   (lib (name "RBE01")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_RBE01VYM6AFHTR/RBE01VYM6AFHTR.kicad_sym")(options "")(descr ""))
+  (lib (name "RO-123_3")(type "KiCad")(uri "${KIPRJMOD}/Parts/RO_123_3S_HP/RO-123.3S_HP.kicad_sym")(options "")(descr ""))
 )
