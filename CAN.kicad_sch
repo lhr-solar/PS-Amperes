@@ -1780,7 +1780,7 @@
 		(fields_autoplaced yes)
 		(uuid "1636ad5f-166d-4c09-b41a-fd939be3d371")
 		(property "Reference" "D1"
-			(at 171.45 80.9625 90)
+			(at 171.45 80.3274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,8 +1788,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 171.45 83.5025 90)
+		(property "Value" "CAN Fault"
+			(at 171.45 82.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
