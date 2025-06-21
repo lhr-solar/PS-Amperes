@@ -3694,12 +3694,6 @@
 		(uuid "21871d29-e5bd-4055-98c1-5a36d2d0890b")
 	)
 	(junction
-		(at 99.06 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4aa61d47-baad-45f4-b500-a2345da25f99")
-	)
-	(junction
 		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3806,6 +3800,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f238df4b-36b4-4638-96ca-8262a8054b7f")
+	)
+	(junction
+		(at 99.06 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3e90b8d-b0b1-401f-bfbd-b44c220ff5e2")
 	)
 	(junction
 		(at 231.14 125.73)
@@ -6753,17 +6753,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 127 80.01 0)
+		(lib_id "power:+3.3V")
+		(at 161.29 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40caa69d-7e1e-4103-a813-54dbf1495a3a")
+		(uuid "471c759c-9024-44e7-b86a-9a7eb801c216")
 		(property "Reference" "#PWR064"
-			(at 127 83.82 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,8 +6770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 127 74.93 0)
+		(property "Value" "+3.3V"
+			(at 161.29 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 80.01 0)
+			(at 161.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +6788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 80.01 0)
+			(at 161.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,8 +6796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 80.01 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,10 +6806,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4c0b3da-77e5-45fa-baa6-72fba2b1e7e0")
+			(uuid "9fea4e9c-2db9-4741-9a5a-7c220b52e288")
 		)
 		(instances
-			(project ""
+			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(reference "#PWR064")
 					(unit 1)
@@ -6879,71 +6878,6 @@
 			(project ""
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 99.06 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48759626-efb2-482f-a82e-545f5553e2a6")
-		(property "Reference" "#PWR08"
-			(at 99.06 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 98.298 157.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44186e70-1c7c-46c7-adfe-c4aa9e92df76")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7096,71 +7030,6 @@
 			(project ""
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 161.29 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e13d896-2bfc-40a1-b0b2-05e1384ae2d6")
-		(property "Reference" "#PWR055"
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 161.29 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 161.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c68cb8c-27b2-4e1a-9370-9e1836a6ee41")
-		)
-		(instances
-			(project ""
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8554,6 +8423,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "922ca4f2-4cf2-4311-b91d-3a9025c0d8b3")
+		(property "Reference" "#PWR07"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6a282f0-f9b7-438e-862a-bd5fcd2e483c")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 165.1 0)
 		(unit 1)
@@ -8759,6 +8694,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 231.14 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c3c09f0-b53b-4423-b03f-aae58a2894de")
+		(property "Reference" "#PWR08"
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 231.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 231.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17976c7-13dc-40c5-95c0-2e22dd87f6e5")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "INA145:INA145UA_2K5")
 		(at 173.99 129.54 0)
 		(unit 1)
@@ -8932,17 +8933,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 231.14 115.57 0)
+		(lib_id "power:+3.3V")
+		(at 99.06 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a872dcd0-c5c5-4468-af8e-d586e58403c9")
-		(property "Reference" "#PWR021"
-			(at 231.14 119.38 0)
+		(uuid "a5720183-3110-4d38-b4f9-d90b41162a87")
+		(property "Reference" "#PWR055"
+			(at 99.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,8 +8951,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 231.14 110.49 0)
+		(property "Value" "+3.3V"
+			(at 99.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 115.57 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +8969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 115.57 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,8 +8977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,12 +8987,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4555d97-75ef-4429-b379-9ed2e011650f")
+			(uuid "700d6512-dfd4-4b87-8cf3-edc9229a79d9")
 		)
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
-					(reference "#PWR021")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
