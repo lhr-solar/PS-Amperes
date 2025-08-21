@@ -8,5 +8,6 @@
   (lib (name "AMC1300")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_AMC1300BDWV/AMC1300.kicad_sym")(options "")(descr ""))
   (lib (name "INA145")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_INA145UA-2K5/KiCADv6/2025-01-18_20-57-35.kicad_sym")(options "")(descr ""))
   (lib (name "RBE01")(type "KiCad")(uri "${KIPRJMOD}/Parts/ul_RBE01VYM6AFHTR/RBE01VYM6AFHTR.kicad_sym")(options "")(descr ""))
-  (lib (name "WE_1769205241")(type "KiCad")(uri "${KIPRJMOD}/Parts/WE_1769205241/1769205241.kicad_sym")(options "")(descr ""))
+  (lib (name "WE_24_5_Buck")(type "KiCad")(uri "${KIPRJMOD}/Parts/WE_1769205341/WE_1769205341.kicad_sym")(options "")(descr ""))
+  (lib (name "INA241")(type "KiCad")(uri "${KIPRJMOD}/Parts/INA241A5IDR/INA241A5IDR.kicad_sym")(options "")(descr ""))
 )
