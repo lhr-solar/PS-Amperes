@@ -1,11 +1,13 @@
-#include "stm32xx_hal.h"
+#ifndef AMPERES_H
+#define AMPERES_H
+
+#include "common.h"
 #include "ADC.h"
 #include "CAN.h"
 
 /**
  * Firmware for Amperes Board
  * STM32L431CBT
- * ADC is PA1
  */
 
 #ifdef STM32L4xx
@@ -19,8 +21,8 @@
 #define AMPERES_SAMPLE_TIME ADC_SAMPLETIME_3CYCLES
 #endif
 
-extern StaticTask_t amperes_task_buffer;
-extern StackType_t amperes_task_stack[configMINIMAL_STACK_SIZE];
+#define ADC_PORT GPIOA
+#define ADC_PIN GPIO_PIN_1
 
 typedef enum AmperesStatus {
     INIT_OK,
@@ -29,6 +31,15 @@ typedef enum AmperesStatus {
     READING_FAIL
 } AmperesStatus_t;
 
+/**
+ * @brief 
+ */
 AmperesStatus_t Amperes_Init();
+
+/**
+ * @brief 
+ */
 AmperesStatus_t Amperes_GetReading(uint32_t *reading);
-void Amperes_Task(void *pvParameters);
+
+
+#endif // AMPERES_H
