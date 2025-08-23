@@ -1800,7 +1800,7 @@
 		(uuid "f8c5aade-c2f4-49f8-a7f3-59e176cd4d8e")
 	)
 	(hierarchical_label "CAN_LOW"
-		(shape input)
+		(shape bidirectional)
 		(at 29.21 81.28 180)
 		(effects
 			(font
@@ -1811,7 +1811,7 @@
 		(uuid "0d47d2f4-02d1-454d-b00a-a5f00304ad0d")
 	)
 	(hierarchical_label "CAN_LOW"
-		(shape input)
+		(shape bidirectional)
 		(at 63.5 43.18 0)
 		(effects
 			(font
@@ -1822,7 +1822,7 @@
 		(uuid "1f3714c2-421f-4a58-ab31-1c280a49264d")
 	)
 	(hierarchical_label "CAN_LOW"
-		(shape input)
+		(shape bidirectional)
 		(at 76.2 95.25 180)
 		(effects
 			(font
@@ -1833,7 +1833,7 @@
 		(uuid "4a0fcc49-10e3-40dd-a966-aee326eaa702")
 	)
 	(hierarchical_label "CAN_HIGH"
-		(shape input)
+		(shape bidirectional)
 		(at 29.21 78.74 180)
 		(effects
 			(font
@@ -1844,7 +1844,7 @@
 		(uuid "5fa32479-b55e-44f5-813f-2d7881420f71")
 	)
 	(hierarchical_label "CAN_RX"
-		(shape output)
+		(shape bidirectional)
 		(at 34.29 38.1 180)
 		(effects
 			(font
@@ -1855,7 +1855,7 @@
 		(uuid "68a1e102-3f34-4710-b361-c80887275736")
 	)
 	(hierarchical_label "CAN_TX"
-		(shape input)
+		(shape bidirectional)
 		(at 34.29 35.56 180)
 		(effects
 			(font
@@ -1866,7 +1866,7 @@
 		(uuid "6a9e54f8-9783-47f3-9890-61cc6a3bd80b")
 	)
 	(hierarchical_label "CAN_HIGH"
-		(shape input)
+		(shape bidirectional)
 		(at 76.2 69.85 180)
 		(effects
 			(font
@@ -1877,7 +1877,7 @@
 		(uuid "838b27d6-586c-44e2-b64f-a535c71c5d6f")
 	)
 	(hierarchical_label "CAN_TX"
-		(shape input)
+		(shape bidirectional)
 		(at 104.14 74.93 180)
 		(effects
 			(font
@@ -1888,7 +1888,7 @@
 		(uuid "a4cdb7ce-e616-4804-b94f-ea473f1a59bd")
 	)
 	(hierarchical_label "CAN_RX"
-		(shape output)
+		(shape bidirectional)
 		(at 104.14 77.47 180)
 		(effects
 			(font
@@ -1899,7 +1899,7 @@
 		(uuid "ce22ec92-5a46-43ab-8e96-d773196c5f35")
 	)
 	(hierarchical_label "CAN_HIGH"
-		(shape input)
+		(shape bidirectional)
 		(at 63.5 38.1 0)
 		(effects
 			(font
