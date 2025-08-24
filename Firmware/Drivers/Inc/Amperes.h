@@ -6,7 +6,9 @@
 #include "CAN.h"
 
 /**
- * Firmware for Amperes Board
+ * Drivers for Amperes Board
+ * - ADC
+ * - CAN
  * STM32L431CBT
  */
 
@@ -24,17 +26,15 @@
 #define ADC_PORT GPIOA
 #define ADC_PIN GPIO_PIN_1
 
-typedef enum AmperesStatus {
-    INIT_OK,
-    INIT_FAIL,
+typedef enum AmperesStatus {    // TODO: better states
     READING_OK,
     READING_FAIL
 } AmperesStatus_t;
 
 /**
- * @brief 
+ * @brief Initializes ADC and CAN for Amperes
  */
-AmperesStatus_t Amperes_Init();
+bool Amperes_Init();
 
 /**
  * @brief 

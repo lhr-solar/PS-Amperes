@@ -1,8 +1,14 @@
 #include "Tasks.h"
 
+// For amperes
+StaticTask_t amperes_task_buffer;
+StackType_t  amperes_task_stack[configMINIMAL_STACK_SIZE];
+
 void Task_Init() {
+    // Init Amperes: ADC and CAN
+    if (!Amperes_Init()) error_handler();
+
     // Init Amperes Task
-    Amperes_Init();
     xTaskCreateStatic(
         Amperes_Task,
         "Amperes Task",

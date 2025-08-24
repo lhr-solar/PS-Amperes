@@ -9,25 +9,27 @@ int main() {
     HAL_Init();
     SystemClock_Config();
 
-    // Initializing
-    if (Amperes_Init() != INIT_OK) error_handler();
+    // Init Amperes driver 
+    // if (!Amperes_Init()) error_handler();
 
-    // Init tasks
+    // Start Init Task
     xTaskCreateStatic(
-        Task_Init,
-        "Task init",
-        configMINIMAL_STACK_SIZE,
-        (void*)NULL,
-        TASK_INIT_PRIO,
-        Task_Init_Stack_Array,
-        &Task_Init_Buffer
+        Task_Init,                  /* The function that implements the task. */
+        "Task init",                /* Text name for the task. */
+        configMINIMAL_STACK_SIZE,   /* The size (in words) of the stack that should be created for the task. */
+        (void*)NULL,                /* Paramter passed into the task. */
+        TASK_INIT_PRIO,             /* Task Prioriy. */
+        Task_Init_Stack_Array,      /* Stack array. */
+        &Task_Init_Buffer           /* Buffer for static allocation. */
     );
 
+    // Start scheduler
     vTaskStartScheduler();
 
-    // Should not reach here
     error_handler();
-    while(1) {}
+    while(1) {  
+        // Code should not reach here
+    }
 
     return 0;
 }
