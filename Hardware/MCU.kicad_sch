@@ -3114,6 +3114,16 @@
 		)
 		(uuid df6cc88b-fb89-4a85-848d-4f55a838d28e)
 	)
+	(text "C_caps = (CL - Cp/stray) * 2\nuse Cp~3pF"
+		(exclude_from_sim no)
+		(at 27.94 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "001ca459-f047-4610-83d6-6b40d891c81a")
+	)
 	(text "pulldown\nfor boot"
 		(exclude_from_sim no)
 		(at 43.942 49.53 0)

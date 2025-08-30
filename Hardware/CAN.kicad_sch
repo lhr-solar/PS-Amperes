@@ -1430,13 +1430,14 @@
 		)
 		(uuid "bbe5b9ba-79bc-4b03-a551-d66dcb1ef56f")
 	)
-	(text "CAN Fault"
+	(text "CAN Status\n(LED off in fault state)"
 		(exclude_from_sim no)
-		(at 110.744 22.098 0)
+		(at 112.522 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify top)
 		)
 		(uuid "c4449fc5-3c0b-4731-94fb-1508ab7485ea")
 	)
@@ -1928,7 +1929,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAN Fault"
+		(property "Value" "CAN Status"
 			(at 113.03 47.3074 90)
 			(effects
 				(font
