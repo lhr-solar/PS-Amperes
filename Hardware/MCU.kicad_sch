@@ -1012,132 +1012,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3338,6 +3212,12 @@
 		(uuid "4b448d70-5818-4bb3-b62e-129a47f874d6")
 	)
 	(junction
+		(at 66.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "521b2d96-2ff8-4613-b318-5958fd5223be")
+	)
+	(junction
 		(at 210.82 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3350,22 +3230,16 @@
 		(uuid "63741558-8770-4885-ad16-d0a70d8955f3")
 	)
 	(junction
+		(at 82.55 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f071ce-5be1-4a22-9531-715400f7f3cb")
+	)
+	(junction
 		(at 73.66 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7173b1fa-3553-4e34-ada4-7817b1413a98")
-	)
-	(junction
-		(at 82.55 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "717d8b2c-8cd3-4d4d-97d4-bae474003eb6")
-	)
-	(junction
-		(at 66.04 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "767ccadf-83a7-49cc-acd5-d4e5c82fbba8")
 	)
 	(junction
 		(at 210.82 39.37)
@@ -3543,7 +3417,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 82.55 114.3)
+			(xy 82.55 106.68) (xy 82.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3640,6 +3514,16 @@
 			(type default)
 		)
 		(uuid "23811b7d-ec4e-4e67-a6f5-10d00b622260")
+	)
+	(wire
+		(pts
+			(xy 78.74 115.57) (xy 82.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce199a9-b59a-4561-8fbd-b70a5c9ff7dd")
 	)
 	(wire
 		(pts
@@ -3773,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 113.03) (xy 66.04 114.3)
+			(xy 66.04 106.68) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3823,6 +3707,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 115.57) (xy 82.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf6b62c-3a9d-46f6-bf20-473d78c0a431")
+	)
+	(wire
+		(pts
 			(xy 184.15 76.2) (xy 195.58 76.2)
 		)
 		(stroke
@@ -3860,16 +3754,6 @@
 			(type default)
 		)
 		(uuid "5869a8f8-d396-4986-9f03-85adeb07438a")
-	)
-	(wire
-		(pts
-			(xy 66.04 106.68) (xy 66.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8b3103-95ae-4ab9-9efe-c2116c8c65d8")
 	)
 	(wire
 		(pts
@@ -3930,16 +3814,6 @@
 			(type default)
 		)
 		(uuid "636c3652-adb8-4cd3-9dda-055990f71359")
-	)
-	(wire
-		(pts
-			(xy 82.55 106.68) (xy 82.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "654a8c70-df99-4a05-85fa-00848d7c29c6")
 	)
 	(wire
 		(pts
@@ -4083,6 +3957,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 115.57) (xy 71.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48ac078-d818-4a00-9a1b-c49e7980a72d")
+	)
+	(wire
+		(pts
 			(xy 153.67 74.93) (xy 162.56 74.93)
 		)
 		(stroke
@@ -4090,16 +3974,6 @@
 			(type default)
 		)
 		(uuid "a82b3c03-24ae-4c36-bb30-a0ba7198fb6f")
-	)
-	(wire
-		(pts
-			(xy 66.04 113.03) (xy 72.39 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d36530-d7b1-4274-bd9d-6773177a93e4")
 	)
 	(wire
 		(pts
@@ -4130,6 +4004,16 @@
 			(type default)
 		)
 		(uuid "b03aa4c7-bd9e-466c-98eb-0f1de862c948")
+	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d3df89-d7b1-452a-a0e9-b3b08b682d3d")
 	)
 	(wire
 		(pts
@@ -4230,16 +4114,6 @@
 			(type default)
 		)
 		(uuid "c6e4a0f3-72bd-492c-ab61-0b7e04c7c80c")
-	)
-	(wire
-		(pts
-			(xy 77.47 113.03) (xy 82.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa05daf-8099-48db-84ed-c9d79c2e9684")
 	)
 	(wire
 		(pts
@@ -6330,7 +6204,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 82.55 114.3 0)
+		(at 82.55 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6339,7 +6213,7 @@
 		(fields_autoplaced yes)
 		(uuid "34628eff-c95e-44ab-a138-a7ce8597f662")
 		(property "Reference" "#PWR040"
-			(at 82.55 120.65 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6222,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 82.55 119.38 0)
+			(at 82.55 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 114.3 0)
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 114.3 0)
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 82.55 114.3 0)
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,6 +6504,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4329cbb1-669f-462d-bd25-307180ee43b7")
+		(property "Reference" "D4"
+			(at 235.4072 81.5594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Fault"
+			(at 235.4072 83.8708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C84263.pdf"
+			(at 232.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 232.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "NCD0603R1"
+			(at 232.41 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7df22f-1aaf-424b-af84-98a438be0c8f")
+		)
+		(pin "2"
+			(uuid "9b5d941b-6d43-4302-90ac-657b5cff5708")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47dc2616-9b87-43b4-8301-d481d1fd4a76")
+		(property "Reference" "D11"
+			(at 217.6272 81.5594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Heartbeat"
+			(at 217.6272 83.8708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "XL-1608UBC-06A"
+			(at 214.63 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4401175c-7577-4648-bf2d-a529d60c0226")
+		)
+		(pin "2"
+			(uuid "aa29faa8-fe4d-46cd-b1af-e51d7a953b7b")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 78.74 25.4 0)
 		(unit 1)
@@ -6713,7 +6761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "120"
 			(at 234.95 72.3899 0)
 			(effects
 				(font
@@ -6977,7 +7025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 114.3 0)
+		(at 66.04 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6986,7 +7034,7 @@
 		(fields_autoplaced yes)
 		(uuid "554adba8-0599-46c6-96e2-d840087f8356")
 		(property "Reference" "#PWR039"
-			(at 66.04 120.65 0)
+			(at 66.04 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +7043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 119.38 0)
+			(at 66.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,7 +7051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 114.3 0)
+			(at 66.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7012,7 +7060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 114.3 0)
+			(at 66.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 114.3 0)
+			(at 66.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,6 +7084,93 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 247.65 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55e879f9-7ba7-43ed-9f5d-9b1b13511c53")
+		(property "Reference" "D12"
+			(at 250.6472 81.5594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Charge"
+			(at 250.6472 83.8708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "XL-1608UBC-06A"
+			(at 247.65 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da3a71a6-2992-4593-a10c-d8b2b28e4f5a")
+		)
+		(pin "2"
+			(uuid "d260031c-d776-41b7-a800-0c632a185a3b")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "120"
 			(at 250.19 72.3899 0)
 			(effects
 				(font
@@ -7499,7 +7634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "120"
 			(at 265.43 72.3899 0)
 			(effects
 				(font
@@ -7552,16 +7687,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 232.41 82.55 90)
+		(at 262.89 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74ce5be2-4822-42cf-aeb0-4c6e9995272d")
-		(property "Reference" "D4"
-			(at 236.22 82.8674 90)
+		(uuid "7b259cdb-b869-440e-934d-37808fe4820c")
+		(property "Reference" "D13"
+			(at 265.8872 81.5594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,8 +7703,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Fault"
-			(at 236.22 85.4074 90)
+		(property "Value" "Discharge"
+			(at 265.8872 83.8708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,8 +7712,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 232.41 82.55 0)
+		(property "Footprint" ""
+			(at 262.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,8 +7721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 232.41 82.55 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7371904.pdf"
+			(at 262.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7731,16 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 232.41 82.55 0)
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "XL-1608UBC-06A"
+			(at 262.89 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7749,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 82.55 0)
+			(at 262.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,16 +7757,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a00c1b1c-59cf-4596-a992-e3132a0b8c87")
-		)
 		(pin "1"
-			(uuid "8da7c4cc-6ba3-40ed-9933-4ed793bc72ec")
+			(uuid "ff930914-57cd-41e9-8eca-0db25784bc48")
+		)
+		(pin "2"
+			(uuid "d91f3b72-43c0-423b-9aae-24cae1105a58")
 		)
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "D4")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7839,85 +7982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 214.63 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fa9206d-c4c6-4c7b-bbd1-6bc042a18237")
-		(property "Reference" "D3"
-			(at 218.44 82.8674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Heartbeat"
-			(at 218.44 85.4074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e24a9b08-a82c-4664-94c3-49464c395e24")
-		)
-		(pin "1"
-			(uuid "0a528e7f-9224-4802-b23a-4abe4a0b945e")
-		)
-		(instances
-			(project ""
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 226.06 35.56 0)
 		(unit 1)
@@ -8090,164 +8154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 247.65 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f783562-4f5f-497a-9b57-5941031b5661")
-		(property "Reference" "D5"
-			(at 251.46 82.8674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Charge"
-			(at 251.46 85.4074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bef7bae1-365f-4581-b87b-a1589adbe2ad")
-		)
-		(pin "1"
-			(uuid "fa59d047-afa1-4f94-bb77-7d03aea30211")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 262.89 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0350ed9-e91e-447a-9496-b2e5d2f72614")
-		(property "Reference" "D6"
-			(at 266.7 82.8674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Discharge"
-			(at 266.7 85.4074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 262.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 262.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 262.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0be20b1c-e2fc-448d-b023-b0319e673483")
-		)
-		(pin "1"
-			(uuid "b9ad7666-2532-46d8-ad2b-e20ab9167b45")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 154.94 35.56 0)
 		(unit 1)
@@ -8371,7 +8277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "120"
 			(at 217.17 72.3899 0)
 			(effects
 				(font
@@ -8734,6 +8640,110 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 74.93 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0eaca15-7d2a-4291-8eb5-8cb4f672ccac")
+		(property "Reference" "FB2"
+			(at 74.8792 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 74.8792 111.125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 74.93 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "704-MFBW1V2012-121-R"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MFBW1V2012-121-R"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef8a0076-53db-4205-9292-d859e1502a59")
+		)
+		(pin "2"
+			(uuid "c92b4851-4660-409b-aea5-ee0a5334cca6")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -9372,73 +9382,6 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 74.93 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5fc1eaa-44fd-4f74-9853-a929aa1cb323")
-		(property "Reference" "NT1"
-			(at 74.93 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 74.93 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 74.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 74.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e812e784-9efe-471a-8696-1c6c3f2c0e1f")
-		)
-		(pin "2"
-			(uuid "b89af1b4-6694-4167-8975-a6454b8d6c99")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "NT1")
 					(unit 1)
 				)
 			)

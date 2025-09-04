@@ -3149,7 +3149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "120"
 			(at 110.998 36.703 0)
 			(effects
 				(font
