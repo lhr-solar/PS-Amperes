@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA396DCKR
+D Precision Amplifiers Single micro-power, high-precision, wide bandwidth RRIO op amp with e-Trim
+K
+F https://www.ti.com/lit/gpn/opa396
+$ENDCMP
+#
+#End Doc Library
