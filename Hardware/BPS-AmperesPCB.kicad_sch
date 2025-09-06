@@ -3917,7 +3917,7 @@
 	)
 	(text "unity\ngain\nbuffer"
 		(exclude_from_sim no)
-		(at 126.238 125.476 0)
+		(at 128.778 125.476 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4052,7 +4052,7 @@
 		)
 		(uuid "8da12f66-0d6c-42a6-bbb8-1678e9140c20")
 	)
-	(text "Gain: 100 V/V\nTarget Input Voltage: \n\nReference voltage (bias for discharge): 1.3 V\n- (70A * 250 uOhm * 100)V + Vref = 3.05 V\n- (-32 * 250 uOhm * 100)V + Vref = 0.5 V\n\nMaximum current range: -44 to +80A (0.1V to 3.2V)"
+	(text "Gain: 100 V/V\nTarget Input Voltage: \n\nReference voltage (bias for discharge)\n- Vref = 3.3 * [1k / (1k + 1.5k)] = 1.32 V\n- (70A * 250 uOhm * 100)V + Vref = 3.05 V\n- (-32 * 250 uOhm * 100)V + Vref = 0.5 V\n\nMaximum current range: -44 to +80A (0.1V to 3.2V)"
 		(exclude_from_sim no)
 		(at 71.12 133.604 0)
 		(effects
@@ -4100,17 +4100,6 @@
 		)
 		(uuid "af64a9b1-9077-4c2d-bf0d-803ff539081f")
 	)
-	(text "Divider: V = Vin * [R2 / (R1 + R2)]"
-		(exclude_from_sim no)
-		(at 71.12 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b079925c-20ca-4303-84f7-38c161dfcd4a")
-	)
 	(text "Current Range:\nCharge (-): 32A thru Elcon; max 54A from cell\nDischarge (+): 70A\n\nVoltage Range:\n32 cells, 2.6 - 4.1 V range => 83.2V to 131.2V"
 		(exclude_from_sim no)
 		(at 17.78 172.72 0)
@@ -4157,7 +4146,7 @@
 		)
 		(uuid "ebf22c12-3ec8-43ac-b481-64d22b56e947")
 	)
-	(text "To-do:\n- values for everything\n- scrutineering\n- bias current sense for discharge (70A)\n- single ended signal into isolation\n- amplification (if needed) and then filter\n	- keep within 0.1 - 3.2 V range"
+	(text "To-do:\n- values for everything\n- scrutineering\n- bias current sense for discharge (70A) [x]\n- single ended signal into isolation [x]\n- amplification + low pass filter [x]\n	- keep within 0.1 - 3.2 V range"
 		(exclude_from_sim no)
 		(at 76.962 167.894 0)
 		(effects
@@ -4221,7 +4210,7 @@
 		(uuid "506154f5-1ec5-4fa9-b4fc-009c4a5caa73")
 	)
 	(junction
-		(at 115.57 132.08)
+		(at 118.11 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62da4a3c-92e2-45bc-85eb-47ea85f3c4e5")
@@ -4341,7 +4330,7 @@
 		(uuid "d6107cdd-fc20-4508-adaa-bfecdb5bbb12")
 	)
 	(junction
-		(at 111.76 118.11)
+		(at 114.3 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee7128c1-9e79-4fc7-8495-87807412fe7d")
@@ -4480,7 +4469,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 118.11) (xy 115.57 118.11)
+			(xy 114.3 118.11) (xy 118.11 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4540,7 +4529,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 132.08) (xy 115.57 132.08)
+			(xy 106.68 132.08) (xy 118.11 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4620,16 +4609,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 116.84) (xy 106.68 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8b36db-c4a2-43a9-9fb8-79bd38a3ff46")
-	)
-	(wire
-		(pts
 			(xy 161.29 60.96) (xy 171.45 60.96)
 		)
 		(stroke
@@ -4660,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 125.73) (xy 111.76 124.46)
+			(xy 114.3 125.73) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4798,6 +4777,16 @@
 		)
 		(uuid "567add3e-3b39-4731-a3c3-0aa46e014e1b")
 	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 106.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570a7042-5a3f-4a83-8a0f-f9948a05f320")
+	)
 	(polyline
 		(pts
 			(xy 48.26 15.24) (xy 48.26 73.66)
@@ -4810,7 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 118.11) (xy 111.76 119.38)
+			(xy 114.3 118.11) (xy 114.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5010,7 +4999,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 120.65) (xy 130.81 132.08)
+			(xy 133.35 120.65) (xy 133.35 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 123.19) (xy 115.57 132.08)
+			(xy 118.11 123.19) (xy 118.11 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 111.76) (xy 111.76 111.76)
+			(xy 109.22 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5309,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 113.03) (xy 111.76 111.76)
+			(xy 114.3 113.03) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5610,7 +5599,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 132.08) (xy 130.81 132.08)
+			(xy 118.11 132.08) (xy 133.35 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6214,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 128.27 0)
+		(at 123.19 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6233,7 +6222,7 @@
 		(dnp no)
 		(uuid "12341e7a-2e58-4a43-9e45-082a6a78643f")
 		(property "Reference" "#PWR086"
-			(at 120.65 134.62 0)
+			(at 123.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +6231,7 @@
 			)
 		)
 		(property "Value" "GND HV"
-			(at 125.984 130.302 0)
+			(at 128.524 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 128.27 0)
+			(at 123.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 128.27 0)
+			(at 123.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 128.27 0)
+			(at 123.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7417,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 111.76 121.92 0)
+		(at 114.3 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7437,7 +7426,7 @@
 		(dnp no)
 		(uuid "34e3ca27-ebe2-43fb-a4c4-590232e9ef7b")
 		(property "Reference" "R23"
-			(at 110.744 120.65 0)
+			(at 113.284 120.65 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7445,8 +7434,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
-			(at 110.744 123.19 0)
+		(property "Value" "1k"
+			(at 113.284 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,7 +7444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 121.92 0)
+			(at 114.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +7453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 121.92 0)
+			(at 114.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +7462,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 111.76 121.92 0)
+			(at 114.3 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 111.76 115.57 0)
+		(at 114.3 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7830,7 +7819,7 @@
 		(dnp no)
 		(uuid "59933d1a-3045-4a30-bfc1-822c8fc4c790")
 		(property "Reference" "R22"
-			(at 110.744 114.3 0)
+			(at 113.284 114.3 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7838,8 +7827,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??"
-			(at 110.744 116.84 0)
+		(property "Value" "1.5k"
+			(at 113.284 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7848,7 +7837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7855,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 111.76 115.57 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8703,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 120.65 113.03 0)
+		(at 123.19 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8722,7 +8711,7 @@
 		(dnp no)
 		(uuid "7e434fa3-3cf1-41b1-af1a-993fb38d544e")
 		(property "Reference" "#PWR079"
-			(at 120.65 116.84 0)
+			(at 123.19 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8720,7 @@
 			)
 		)
 		(property "Value" "+3.3V HV"
-			(at 126.492 112.014 0)
+			(at 129.032 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,7 +8728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 113.03 0)
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 113.03 0)
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +8746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 113.03 0)
+			(at 123.19 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9104,7 @@
 	(symbol
 		(lib_name "TLV6001DCK_1")
 		(lib_id "Amplifier_Operational:TLV6001DCK")
-		(at 120.65 120.65 0)
+		(at 123.19 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9123,7 +9112,7 @@
 		(dnp no)
 		(uuid "93e16c3d-ccb3-4fd4-b73b-3c5a2a1689c1")
 		(property "Reference" "U7"
-			(at 127.508 118.872 0)
+			(at 130.048 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9120,7 @@
 			)
 		)
 		(property "Value" "TLV6001DCK"
-			(at 127.508 116.332 0)
+			(at 130.048 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9128,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 125.73 120.65 0)
+			(at 128.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9137,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
-			(at 120.65 120.65 0)
+			(at 123.19 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +9146,7 @@
 			)
 		)
 		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
-			(at 120.65 120.65 0)
+			(at 123.19 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 125.73 0)
+		(at 114.3 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10114,7 +10103,7 @@
 		(dnp no)
 		(uuid "bde56902-8814-43ae-a91d-deb8c24fb83c")
 		(property "Reference" "#PWR072"
-			(at 111.76 132.08 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10112,7 @@
 			)
 		)
 		(property "Value" "GND HV"
-			(at 111.76 129.794 0)
+			(at 114.3 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 125.73 0)
+			(at 114.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 125.73 0)
+			(at 114.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 125.73 0)
+			(at 114.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
