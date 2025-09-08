@@ -1604,7 +1604,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1620,7 +1620,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
+			(property "Value" "SW_DPDT_x2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1638,15 +1638,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1655,7 +1646,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Switch, dual pole double throw, separate symbols"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1664,10 +1655,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1676,9 +1685,33 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.5748 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1690,18 +1723,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1711,18 +1733,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1770,6 +1781,62 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2693,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 49.53) (xy 187.96 49.53)
+			(xy 176.53 55.88) (xy 185.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2723,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 46.99) (xy 187.96 46.99)
+			(xy 176.53 53.34) (xy 185.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2800,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 33.02) (xy 193.04 33.02)
+			(xy 204.47 40.64) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194a2e13-842c-40c4-820e-977a2a5f1486")
+	)
+	(wire
+		(pts
+			(xy 204.47 25.4) (xy 193.04 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2923,6 +3000,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 45.72) (xy 193.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427c2351-57a1-4a86-905e-0ab5d59c8ce3")
+	)
+	(wire
+		(pts
 			(xy 59.69 104.14) (xy 67.31 104.14)
 		)
 		(stroke
@@ -2940,6 +3027,16 @@
 			(type default)
 		)
 		(uuid "47b6edaa-5c5f-43b5-abb0-7d9f90081449")
+	)
+	(wire
+		(pts
+			(xy 175.26 43.18) (xy 182.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e13389-637f-4291-9ab2-416984408eb7")
 	)
 	(wire
 		(pts
@@ -3053,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 38.1) (xy 193.04 38.1)
+			(xy 204.47 30.48) (xy 193.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3493,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 35.56) (xy 182.88 35.56)
+			(xy 175.26 27.94) (xy 182.88 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5088,6 +5185,16 @@
 			"AQAAAMCawgMAAACANYUHAAAAAGsBXHu1KCLEJysAAAAASUVORK5CYII="
 		)
 	)
+	(label "Scrut-"
+		(at 204.47 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "004a8be1-00e1-4a87-9fc9-1e02373cc12a")
+	)
 	(label "I_OUT"
 		(at 88.9 30.48 0)
 		(effects
@@ -5119,7 +5226,7 @@
 		(uuid "125a342f-475c-4306-aece-9a9d62515b64")
 	)
 	(label "SHUNT+"
-		(at 204.47 33.02 180)
+		(at 204.47 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5159,6 +5266,16 @@
 		(uuid "58f0df3d-f890-431d-b0ca-29f07eb931bc")
 	)
 	(label "SHUNT-"
+		(at 204.47 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5baaf57f-ea0c-4cd5-aa78-573207269868")
+	)
+	(label "SHUNT-"
 		(at 40.64 107.95 180)
 		(effects
 			(font
@@ -5169,7 +5286,7 @@
 		(uuid "5eda628a-7267-4781-95fb-db1e4fecbc1e")
 	)
 	(label "INPUT+"
-		(at 175.26 35.56 0)
+		(at 175.26 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5179,7 +5296,7 @@
 		(uuid "6d66c825-c398-4357-b75c-b39b12f1240b")
 	)
 	(label "Scrut+"
-		(at 179.07 46.99 0)
+		(at 176.53 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5189,7 +5306,7 @@
 		(uuid "710f3eac-9cb0-4436-a7ec-e7bf117aecb1")
 	)
 	(label "Scrut-"
-		(at 179.07 49.53 0)
+		(at 176.53 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5198,7 +5315,7 @@
 		)
 		(uuid "8e509045-cdb3-4d96-938e-912059f6aec8")
 	)
-	(label "SHUNT-"
+	(label "INPUT-"
 		(at 59.69 106.68 0)
 		(effects
 			(font
@@ -5207,6 +5324,16 @@
 			(justify left bottom)
 		)
 		(uuid "8f5388e9-5df1-4a05-bbd1-1c9d3313f62d")
+	)
+	(label "INPUT-"
+		(at 175.26 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e030642-a090-489f-8de3-f40bcdd0a7b1")
 	)
 	(label "SENSE+"
 		(at 110.49 104.14 180)
@@ -5259,7 +5386,7 @@
 		(uuid "f454f303-929e-4e11-8938-6e8d64996594")
 	)
 	(label "Scrut_Out"
-		(at 204.47 38.1 180)
+		(at 204.47 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6414,7 +6541,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 46.99 0)
+		(at 190.5 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6423,7 +6550,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d9aa8e4-3ce2-410b-b171-e3b2b58e2294")
 		(property "Reference" "J1"
-			(at 195.58 46.9899 0)
+			(at 193.04 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6559,7 @@
 			)
 		)
 		(property "Value" "Scrut In"
-			(at 195.58 49.5299 0)
+			(at 193.04 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6568,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 193.04 46.99 0)
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 46.99 0)
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 46.99 0)
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,6 +7745,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 187.96 43.18 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a605419e-fb70-4ab0-a519-925accbf5acb")
+		(property "Reference" "SW4"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Scrut Select"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f14946e0-d21c-4a60-9dc0-e6ddfda102a7")
+		)
+		(pin "6"
+			(uuid "71053230-122b-4f87-bffe-f9312624bb0c")
+		)
+		(pin "1"
+			(uuid "3046f631-1bf9-4ce5-aa3f-6fd6bd3c0c4e")
+		)
+		(pin "3"
+			(uuid "26ec0b08-5aa4-4d8b-8066-6413497394ac")
+		)
+		(pin "2"
+			(uuid "2ad505ee-1052-4b5e-b944-048b0a218389")
+		)
+		(pin "4"
+			(uuid "db9a5ae3-cae4-41fe-8618-b31a625511a1")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "SW4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 226.06 111.76 90)
 		(unit 1)
@@ -8090,77 +8297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 187.96 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf28287d-a3d4-45e7-9f32-3050f005e8e0")
-		(property "Reference" "SW1"
-			(at 187.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Scrut Select"
-			(at 187.96 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 187.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea5485b5-00c0-4f6a-8f11-06dff93b2918")
-		)
-		(pin "3"
-			(uuid "ca7256b6-4440-41a3-a124-1a49959e4497")
-		)
-		(pin "1"
-			(uuid "3574e8e9-0714-485e-a414-b13dbd00b370")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 222.25 120.65 0)
 		(unit 1)
@@ -8288,6 +8424,86 @@
 			(project ""
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 187.96 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc7588d2-4dfa-47f4-b373-73483ce019e3")
+		(property "Reference" "SW4"
+			(at 187.96 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Scrut Select"
+			(at 187.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f14946e0-d21c-4a60-9dc0-e6ddfda102a7")
+		)
+		(pin "6"
+			(uuid "71053230-122b-4f87-bffe-f9312624bb0c")
+		)
+		(pin "1"
+			(uuid "3046f631-1bf9-4ce5-aa3f-6fd6bd3c0c4e")
+		)
+		(pin "3"
+			(uuid "26ec0b08-5aa4-4d8b-8066-6413497394ac")
+		)
+		(pin "2"
+			(uuid "2ad505ee-1052-4b5e-b944-048b0a218389")
+		)
+		(pin "4"
+			(uuid "db9a5ae3-cae4-41fe-8618-b31a625511a1")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
