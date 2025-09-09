@@ -1810,6 +1810,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TLV9002QDRQ1:TLV9002QDRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TLV9002QDRQ1"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9002-q1.pdf?ts=1606492484565&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV9002-Q1"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Operational Amplifiers - Op Amps 2-Channel, 1MHz, RRIO, 1.8V to 5.5V operational amplifier for cost-optimized systems 8-SOIC -40 to 125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TLV9002QDRQ1"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002QDRQ1?qs=OTrKUuiFdkaZFErnMHVpZg%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLV9002QDRQ1"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9002QDRQ1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "IN1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IN1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "IN2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "IN2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2279,7 +2539,7 @@
 		)
 		(uuid "93b6c654-6ba1-410b-904f-eac426b3d997")
 	)
-	(text "TODO: \nvoltage reference (~ 1.25V)"
+	(text "TODO: add\nvoltage reference (~ 1.25V)"
 		(exclude_from_sim no)
 		(at 126.238 39.37 0)
 		(effects
@@ -2606,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "10a9482b-ec63-4a1b-bfa8-02d5a2b9c27b")
+	)
+	(wire
+		(pts
+			(xy 223.52 133.35) (xy 223.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b70a9a-d47a-440f-834e-52754f0bf48e")
 	)
 	(wire
 		(pts
@@ -3306,6 +3576,16 @@
 			(type default)
 		)
 		(uuid "dd4dca01-8a52-462d-ac2a-7f50a7de11a5")
+	)
+	(wire
+		(pts
+			(xy 195.58 144.78) (xy 195.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df29e13b-a82f-4446-aa7b-0a4467876f0e")
 	)
 	(wire
 		(pts
@@ -6239,6 +6519,144 @@
 		)
 	)
 	(symbol
+		(lib_id "TLV9002QDRQ1:TLV9002QDRQ1")
+		(at 195.58 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fac1d0f-fb6a-487a-a81c-8f94a3088198")
+		(property "Reference" "IC4"
+			(at 209.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9002QDRQ1"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 219.71 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9002-q1.pdf?ts=1606492484565&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV9002-Q1"
+			(at 219.71 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps 2-Channel, 1MHz, RRIO, 1.8V to 5.5V operational amplifier for cost-optimized systems 8-SOIC -40 to 125"
+			(at 195.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 219.71 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9002QDRQ1"
+			(at 219.71 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002QDRQ1?qs=OTrKUuiFdkaZFErnMHVpZg%3D%3D"
+			(at 219.71 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 219.71 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9002QDRQ1"
+			(at 219.71 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad616ab-dafb-4de1-ac09-6ad88fb9140b")
+		)
+		(pin "5"
+			(uuid "51b093a3-089b-49bf-b18e-33c5baeeeaa9")
+		)
+		(pin "4"
+			(uuid "c6e0323d-886f-438b-8506-5b635f2b71b6")
+		)
+		(pin "3"
+			(uuid "b0c2b7b2-24b0-49e7-9c30-d06f131a8fa0")
+		)
+		(pin "2"
+			(uuid "c97ecdcb-54e6-4a67-a19c-aca34e28bf87")
+		)
+		(pin "7"
+			(uuid "cc648adf-6944-4ccb-9f18-0dead98057e1")
+		)
+		(pin "8"
+			(uuid "11efbdf9-1c1c-44d7-98fa-e5aa3f475cbb")
+		)
+		(pin "6"
+			(uuid "23166a66-338a-4d4f-b188-a2bdef4de222")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 63.5 76.2 0)
 		(unit 1)
@@ -6820,6 +7238,72 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df953f1-5f05-4358-970e-5f3836ee53b3")
+		(property "Reference" "#PWR0102"
+			(at 195.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80e00dd4-8a37-4e5b-8263-bcfe40a8e66a")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7644,6 +8128,71 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 223.52 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b47ed64d-4a73-4116-9a4c-1c32283fd338")
+		(property "Reference" "#PWR0101"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 227.076 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde628fc-8a57-4748-868f-8082d5f7c3ca")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

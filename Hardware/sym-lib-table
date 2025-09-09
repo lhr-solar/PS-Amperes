@@ -13,4 +13,5 @@
   (lib (name "TLV6001")(type "KiCad")(uri "${KIPRJMOD}/Parts/TLV6001IDCKR/TLV6001IDCKR.kicad_sym")(options "")(descr ""))
   (lib (name "LT1963AEST-3.3_TRPBF")(type "KiCad")(uri "${KIPRJMOD}/Parts/LT1963AEST-3.3#TRPBF/LT1963AEST-3.3_TRPBF.kicad_sym")(options "")(descr ""))
   (lib (name "OPA396DCKR")(type "KiCad")(uri "${KIPRJMOD}/Parts/OPA396DCKR/OPA396DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV9002QDRQ1")(type "KiCad")(uri "${KIPRJMOD}/Parts/TLV9002QDRQ1/TLV9002QDRQ1.kicad_sym")(options "")(descr ""))
 )
