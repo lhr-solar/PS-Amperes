@@ -660,6 +660,10 @@
     [
       "c14a2c5c-255b-423f-b086-532f80606e87",
       "USB"
+    ],
+    [
+      "7e38ba4d-a54c-4f69-a074-7d0a3dae713a",
+      "Current Sense"
     ]
   ],
   "text_variables": {}
