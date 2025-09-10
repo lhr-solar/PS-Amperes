@@ -1187,210 +1187,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OPA396DCKR:OPA396DCKR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC2"
-				(at 12.192 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "OPA396DCKR"
-				(at 12.446 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SOT65P210X110-5N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/opa396"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision Amplifiers Single micro-power, high-precision, wide bandwidth RRIO op amp with e-Trim"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-OPA396DCKR"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA396DCKR?qs=pBJMDPsKWf3kPopX8lKQVQ%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "OPA396DCKR"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "OPA396DCKR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
@@ -2311,7 +2107,7 @@
 	)
 	(rectangle
 		(start 187.96 55.88)
-		(end 271.78 111.76)
+		(end 281.94 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -2371,7 +2167,7 @@
 	)
 	(text "Gain: 100 V/V\n\nReference voltage (bias for discharge): 1.25V\n* (70A * 250 uOhm * 100)V + Vref = 3 V\n* (-32A * 250 uOhm * 100)V + Vref = 0.45 V\n\nMaximum current range: -44 to +80A (0.1 to 3.2V output)"
 		(exclude_from_sim no)
-		(at 16.51 93.98 0)
+		(at 17.78 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2404,6 +2200,26 @@
 		)
 		(uuid "11872526-42e8-4923-b76b-3a6258c44298")
 	)
+	(text "filter"
+		(exclude_from_sim no)
+		(at 211.074 64.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e525dd8-c72d-435d-ae31-bfe94b4ae116")
+	)
+	(text "unity gain buffer"
+		(exclude_from_sim no)
+		(at 252.73 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24d939b9-4048-4392-94dc-86dc2d6f3d08")
+	)
 	(text "Current Sensing"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
@@ -2419,7 +2235,7 @@
 	)
 	(text "Fixed Gain: 0.4 V/V\nTarget Voltage Ranges:\n* Input: 0.1 - 3.2 V\n* Output: 0.04 - 1.28 V"
 		(exclude_from_sim no)
-		(at 101.6 99.06 0)
+		(at 104.14 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2496,7 +2312,7 @@
 		(at 18.542 22.606 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 				(thickness 0.1588)
 				(color 0 0 0 1)
 			)
@@ -2517,16 +2333,6 @@
 		)
 		(uuid "89fbbee2-3e3d-4e8c-961d-e93431375cbd")
 	)
-	(text "Todo: make footprint"
-		(exclude_from_sim no)
-		(at 73.66 39.37 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "91e6f653-cfdd-4706-ac70-884e34df5ea8")
-	)
 	(text "add justification / documentation"
 		(exclude_from_sim no)
 		(at 86.106 123.19 0)
@@ -2539,15 +2345,18 @@
 		)
 		(uuid "93b6c654-6ba1-410b-904f-eac426b3d997")
 	)
-	(text "TODO: add\nvoltage reference (~ 1.25V)"
+	(text "Voltage Reference"
 		(exclude_from_sim no)
-		(at 126.238 39.37 0)
+		(at 106.68 30.48 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
+			(justify left top)
 		)
-		(uuid "b5d61883-426c-42e6-bf94-b25c5059d690")
+		(uuid "b09be2cd-85ae-4dda-99de-04c91fd8b813")
 	)
 	(text "unity\ngain\nbuffer"
 		(exclude_from_sim no)
@@ -2572,9 +2381,19 @@
 		)
 		(uuid "d15cb848-c8fd-4624-a7ed-462eb0e915bf")
 	)
-	(text "TODO: add 2 channel op amp, one as unity gain buffer"
+	(text "bypass"
 		(exclude_from_sim no)
-		(at 226.06 117.602 0)
+		(at 257.81 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2cdcbf1-748b-4ca7-816a-20fe01a54327")
+	)
+	(text "Todo: shunt footprint"
+		(exclude_from_sim no)
+		(at 73.406 35.56 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2582,6 +2401,17 @@
 			)
 		)
 		(uuid "dd04277c-3ca8-4f8e-a89b-018d7b29ede5")
+	)
+	(text "Todo: add voltage \nreference (~ 1.25V)"
+		(exclude_from_sim no)
+		(at 125.984 39.624 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 255 30 62 1)
+			)
+		)
+		(uuid "e378811d-2521-4c80-a22b-633b82873dfd")
 	)
 	(text "Expected current range: -32A to +70A\n=> Voltage range: -8 to 17.5 mV"
 		(exclude_from_sim no)
@@ -2596,7 +2426,7 @@
 	)
 	(text "2nd order lowpass Butterworth filter (see filter pdf)\n* Cutoff frequency: 10 Hz\n* Rolloff: -40dB / decade\n* Gain: 2.5 V/V \n\nTarget Output voltage range: 0.1 - 3.2 V"
 		(exclude_from_sim no)
-		(at 190.5 99.06 0)
+		(at 193.04 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2604,12 +2434,6 @@
 			(justify left top)
 		)
 		(uuid "f6a343f7-8a97-4fca-b8cd-3d0c88594916")
-	)
-	(junction
-		(at 247.65 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00e7abb1-976b-41c9-a6b3-91df82b3a9f4")
 	)
 	(junction
 		(at 29.21 154.94)
@@ -2624,10 +2448,28 @@
 		(uuid "1a62992c-7e05-45a8-beef-88bad565923f")
 	)
 	(junction
+		(at 212.09 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd2df38-cdef-4d4a-800b-75c24a22c26e")
+	)
+	(junction
 		(at 154.94 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33fa3ed6-60d3-4f33-b6b3-254b09810052")
+	)
+	(junction
+		(at 218.44 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45bde8a3-38a3-4c13-b61d-63d390afd809")
+	)
+	(junction
+		(at 262.89 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50916a3c-a04f-4818-beee-b789390cd4d1")
 	)
 	(junction
 		(at 152.4 87.63)
@@ -2640,6 +2482,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67e2a887-562d-466a-853c-8b9fb522e653")
+	)
+	(junction
+		(at 212.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc8c4aa-03ef-4562-bef2-f7aebd361f7d")
 	)
 	(junction
 		(at 154.94 87.63)
@@ -2660,12 +2508,6 @@
 		(uuid "9163af82-8537-447b-939c-88d39e544f36")
 	)
 	(junction
-		(at 209.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "971429fe-b8fb-4e35-9b1c-c5a2725e8324")
-	)
-	(junction
 		(at 114.3 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2678,16 +2520,22 @@
 		(uuid "a72351da-68d7-4a54-9f9d-92dcdef553be")
 	)
 	(junction
-		(at 251.46 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba123cbe-e6b9-4aab-96ad-812f40092b7e")
-	)
-	(junction
 		(at 29.21 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf42dc4e-9b02-45c9-8b80-4f7297c06f24")
+	)
+	(junction
+		(at 250.19 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0aceedd-17ab-45bf-867f-a58acf255d74")
+	)
+	(junction
+		(at 204.47 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48ab778-dd16-4a9c-bfde-7d7a97572f27")
 	)
 	(junction
 		(at 121.92 82.55)
@@ -2702,12 +2550,6 @@
 		(uuid "dac71fee-80ce-4a03-844f-715544eee439")
 	)
 	(junction
-		(at 247.65 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df9831e3-123d-4a65-960d-a44ed133056e")
-	)
-	(junction
 		(at 29.21 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2720,28 +2562,16 @@
 		(uuid "e4e8f345-3df1-41af-85b6-20f5c03ddd2c")
 	)
 	(junction
-		(at 236.22 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e70ead90-1d7f-4243-82d6-31de325f4413")
-	)
-	(junction
-		(at 236.22 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d89363-6367-4ae2-a096-01fee7b28271")
-	)
-	(junction
 		(at 154.94 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee750273-d9a9-49bb-b48b-a86c232deeb8")
 	)
 	(junction
-		(at 201.93 78.74)
+		(at 218.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f32ada75-0baa-4a8e-a5da-4d7b6e6fe7c8")
+		(uuid "f36f5117-c317-4e56-8ac0-f52dd52ecaff")
 	)
 	(no_connect
 		(at 151.13 36.83)
@@ -2749,13 +2579,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 201.93 87.63)
+			(xy 218.44 66.04) (xy 218.44 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00edf4a1-e2bc-40a3-b328-c481d53dd32d")
+		(uuid "00d676bb-ff4c-417d-96a1-c008f6e33f6a")
 	)
 	(wire
 		(pts
@@ -2779,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 78.74) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0362183e-fec5-4278-8fda-9e127bab6080")
+	)
+	(wire
+		(pts
 			(xy 91.44 165.1) (xy 80.01 165.1)
 		)
 		(stroke
@@ -2786,26 +2626,6 @@
 			(type default)
 		)
 		(uuid "045cc77e-64a7-4481-b13f-0b20dfa36086")
-	)
-	(wire
-		(pts
-			(xy 209.55 68.58) (xy 209.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0509fabe-dc2d-45a1-ab76-59c5fe2b4845")
-	)
-	(wire
-		(pts
-			(xy 189.23 78.74) (xy 195.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c3cbfd-c991-4e43-b9c6-49b43869b1fa")
 	)
 	(wire
 		(pts
@@ -2819,13 +2639,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 68.58) (xy 247.65 66.04)
+			(xy 204.47 86.36) (xy 204.47 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0686c873-6055-4f4b-8578-c3b0d255c2c8")
+		(uuid "08d5544c-f930-48b2-a0cc-2dc43a9c853d")
 	)
 	(wire
 		(pts
@@ -2849,27 +2669,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 72.39) (xy 251.46 73.66)
+			(xy 251.46 96.52) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fd4d717-9bd0-4c62-9cd0-3c180756fc4f")
+		(uuid "13e1c6ae-c080-450f-869e-a760a19c9c68")
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 240.03 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a9482b-ec63-4a1b-bfa8-02d5a2b9c27b")
-	)
-	(wire
-		(pts
-			(xy 223.52 133.35) (xy 223.52 137.16)
+			(xy 246.38 72.39) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2879,13 +2689,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 78.74) (xy 201.93 81.28)
+			(xy 250.19 81.28) (xy 246.38 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bef0ee1-2531-46c2-b3c3-fd92be7e4389")
+		(uuid "1a74b23d-56ef-49a6-b399-64a2ca34e432")
 	)
 	(wire
 		(pts
@@ -2896,6 +2706,16 @@
 			(type default)
 		)
 		(uuid "1ccc770f-af80-4354-9285-5600fc5a584b")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d7ad8d-0c76-4144-9548-fc95d1a5ed67")
 	)
 	(wire
 		(pts
@@ -2919,23 +2739,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 81.28) (xy 251.46 81.28)
+			(xy 218.44 81.28) (xy 218.44 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25fdc302-73a9-48da-824b-f1158562801d")
-	)
-	(wire
-		(pts
-			(xy 236.22 83.82) (xy 236.22 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3153c4be-a44c-42d5-a369-ab9549f9b948")
+		(uuid "2ba4492a-ebcc-47fe-a35d-ef41332d483f")
 	)
 	(wire
 		(pts
@@ -2949,6 +2759,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 78.74) (xy 204.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35612257-7c65-4976-b7b2-3e1e99c34f91")
+	)
+	(wire
+		(pts
 			(xy 177.8 39.37) (xy 177.8 50.8)
 		)
 		(stroke
@@ -2956,16 +2776,6 @@
 			(type default)
 		)
 		(uuid "35b83aaf-68de-4e11-b9af-3226342bbf5c")
-	)
-	(wire
-		(pts
-			(xy 226.06 68.58) (xy 247.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "386a84df-0026-4ec2-a716-f0b3a7a31566")
 	)
 	(wire
 		(pts
@@ -2989,16 +2799,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 68.58) (xy 209.55 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c5a9c6e-f8bc-4e2f-9de9-85a0e11e993b")
-	)
-	(wire
-		(pts
 			(xy 124.46 80.01) (xy 124.46 78.74)
 		)
 		(stroke
@@ -3006,6 +2806,26 @@
 			(type default)
 		)
 		(uuid "3ec1b08b-4f69-484f-943b-42e4e5462647")
+	)
+	(wire
+		(pts
+			(xy 246.38 78.74) (xy 250.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4325f7d0-893f-4ba2-855c-76f00b35cede")
+	)
+	(wire
+		(pts
+			(xy 191.77 78.74) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463d16bf-1932-4ee3-b74f-8d4055736461")
 	)
 	(wire
 		(pts
@@ -3029,13 +2849,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 201.93 78.74)
+			(xy 262.89 78.74) (xy 267.97 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "482a10cf-d8cd-4947-9e05-dc2df793e95c")
+		(uuid "4acd339b-27c8-4c23-adff-2bdd71d7c265")
 	)
 	(wire
 		(pts
@@ -3059,16 +2879,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 83.82) (xy 210.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57309406-145e-4c68-b822-1a31e1ccb7a5")
-	)
-	(wire
-		(pts
 			(xy 29.21 41.91) (xy 40.64 41.91)
 		)
 		(stroke
@@ -3076,6 +2886,26 @@
 			(type default)
 		)
 		(uuid "58c615ab-c5ac-46c2-9610-254d61b1ba6c")
+	)
+	(wire
+		(pts
+			(xy 246.38 83.82) (xy 251.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d7ca44-9f64-4eca-bdf8-7784715087e8")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 204.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592262ac-97c5-4259-85c1-363e18942869")
 	)
 	(wire
 		(pts
@@ -3089,13 +2919,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 88.9) (xy 251.46 90.17)
+			(xy 204.47 66.04) (xy 212.09 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5de5512d-4816-45e6-b23f-1f0cca559557")
+		(uuid "5b8bb998-7e41-4d52-90a2-0ccc780c7e34")
 	)
 	(wire
 		(pts
@@ -3106,6 +2936,16 @@
 			(type default)
 		)
 		(uuid "60455107-85ae-480c-b69d-4379c85bf236")
+	)
+	(wire
+		(pts
+			(xy 212.09 72.39) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f96216-685f-4695-b574-9042ba367c8f")
 	)
 	(wire
 		(pts
@@ -3136,16 +2976,6 @@
 			(type default)
 		)
 		(uuid "63cad953-d6bc-44ed-9c97-38c6e0bfd7aa")
-	)
-	(wire
-		(pts
-			(xy 236.22 78.74) (xy 236.22 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649560c1-6264-4bde-a155-441eab8a0250")
 	)
 	(wire
 		(pts
@@ -3239,13 +3069,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 78.74) (xy 201.93 78.74)
+			(xy 251.46 102.87) (xy 251.46 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e262a0b-5ffc-4791-809b-e64601f8e65d")
+		(uuid "7e36b2ce-8477-484e-b73c-9af569b00b4c")
+	)
+	(wire
+		(pts
+			(xy 204.47 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecc6439-edcf-45e9-96fa-cf6de4377254")
 	)
 	(wire
 		(pts
@@ -3266,6 +3106,36 @@
 			(type default)
 		)
 		(uuid "84056aa0-17c0-4971-b04f-56b05dbe5cf5")
+	)
+	(wire
+		(pts
+			(xy 250.19 78.74) (xy 250.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e955f1-aa67-4349-92e8-04a7e84b8e6c")
+	)
+	(wire
+		(pts
+			(xy 212.09 66.04) (xy 212.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f64c2c-dcb7-4087-9a1f-81dca826e11f")
+	)
+	(wire
+		(pts
+			(xy 204.47 66.04) (xy 204.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b178410-62f3-4e59-9efa-4adf39a8d51a")
 	)
 	(wire
 		(pts
@@ -3326,6 +3196,16 @@
 			(type default)
 		)
 		(uuid "9fab6a6b-d50a-451b-a50e-13d0acf11dd5")
+	)
+	(wire
+		(pts
+			(xy 204.47 78.74) (xy 204.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a767fa6d-8788-4d8d-b800-af41dbad1d21")
 	)
 	(wire
 		(pts
@@ -3409,13 +3289,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 247.65 66.04)
+			(xy 212.09 66.04) (xy 218.44 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdd00ec3-0f39-41d8-a6be-85a147f08cad")
+		(uuid "bbe63f01-7b53-46de-a981-a4b91fe3941a")
 	)
 	(wire
 		(pts
@@ -3439,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 209.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0fc8ac3-150f-43ba-8170-4b1569020a6c")
-	)
-	(wire
-		(pts
 			(xy 62.23 152.4) (xy 69.85 152.4)
 		)
 		(stroke
@@ -3469,13 +3339,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 81.28) (xy 247.65 81.28)
+			(xy 250.19 78.74) (xy 262.89 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccca469b-ea27-4f9e-89df-2fab638851e9")
+		(uuid "ca379fc3-d0d1-469a-9c37-7852556e89ca")
 	)
 	(wire
 		(pts
@@ -3519,23 +3389,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 78.74) (xy 240.03 82.55)
+			(xy 262.89 86.36) (xy 262.89 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d34e88a3-757d-49b0-af38-ea179a8f65d0")
-	)
-	(wire
-		(pts
-			(xy 201.93 66.04) (xy 203.2 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6b9a538-b4be-47f8-af4f-2afb228d5952")
+		(uuid "d657c474-b5b9-40fd-b752-20034000b6ef")
 	)
 	(wire
 		(pts
@@ -3559,16 +3419,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 78.74) (xy 201.93 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd2f40b-6822-45d8-8d19-d2a8d5123d34")
-	)
-	(wire
-		(pts
 			(xy 124.46 81.28) (xy 124.46 87.63)
 		)
 		(stroke
@@ -3579,23 +3429,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 144.78) (xy 195.58 148.59)
+			(xy 218.44 83.82) (xy 218.44 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df29e13b-a82f-4446-aa7b-0a4467876f0e")
-	)
-	(wire
-		(pts
-			(xy 251.46 81.28) (xy 261.62 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea513ced-29bf-4b02-b411-f1933d398c8e")
 	)
 	(wire
 		(pts
@@ -3609,6 +3449,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 69.85) (xy 262.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd0295b-443e-498e-b92d-60321c1d8fb1")
+	)
+	(wire
+		(pts
 			(xy 24.13 76.2) (xy 24.13 80.01)
 		)
 		(stroke
@@ -3616,16 +3466,6 @@
 			(type default)
 		)
 		(uuid "ee2bf55c-a30b-4e9b-a55c-b8c61a8c7d8b")
-	)
-	(wire
-		(pts
-			(xy 236.22 87.63) (xy 240.03 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f168dcf7-a16b-4672-b966-20dd7378b663")
 	)
 	(wire
 		(pts
@@ -3639,23 +3479,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 81.28) (xy 247.65 68.58)
+			(xy 213.36 76.2) (xy 218.44 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9e82ce5-7d8b-4570-bf91-52f4be3b3329")
-	)
-	(wire
-		(pts
-			(xy 209.55 78.74) (xy 210.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fefb95e9-68a5-4e50-8a57-a359951c09a1")
+		(uuid "fa8c1fb0-db12-4833-81dc-ba9e9f701540")
 	)
 	(image
 		(at 50.546 93.98)
@@ -5324,6 +5154,16 @@
 		)
 		(uuid "629c72f3-24aa-49ef-9cb8-f45fc8125eed")
 	)
+	(label "OUT+"
+		(at 191.77 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63b02868-7bfb-4e10-951a-1680effd0183")
+	)
 	(label "Scrut_Out"
 		(at 40.64 166.37 180)
 		(effects
@@ -5343,6 +5183,16 @@
 			(justify right bottom)
 		)
 		(uuid "806b2c68-9ac8-4e0c-825c-f9dc36a0f1d6")
+	)
+	(label "OUT1"
+		(at 213.36 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89aae0f3-e4d7-4041-b07b-e82997afcdde")
 	)
 	(label "INPUT-"
 		(at 62.23 167.64 0)
@@ -5384,6 +5234,16 @@
 		)
 		(uuid "e120b904-5745-4be1-9218-d9083315a863")
 	)
+	(label "OUT1"
+		(at 251.46 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e53c537b-db64-4438-b105-2b1a8ca1f498")
+	)
 	(label "INPUT-"
 		(at 19.05 73.66 0)
 		(effects
@@ -5393,16 +5253,6 @@
 			(justify left bottom)
 		)
 		(uuid "e93a9485-24cb-453c-8ba0-6c2eed3636a8")
-	)
-	(label "OUT+"
-		(at 189.23 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1804048-6d04-41d6-9e08-da54cb1b53b3")
 	)
 	(label "Scrut-"
 		(at 21.59 177.8 0)
@@ -5426,7 +5276,7 @@
 	)
 	(hierarchical_label "I_OUT"
 		(shape output)
-		(at 261.62 81.28 0)
+		(at 267.97 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5435,7 +5285,7 @@
 			)
 			(justify left)
 		)
-		(uuid "26567d7a-ff28-443c-852a-8b01d2272494")
+		(uuid "c1a0941b-2beb-4f57-a1cf-991b58c5b3c1")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -5446,7 +5296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09854368-08e7-4f2b-a70d-7739c7c00894")
-		(property "Reference" "C34"
+		(property "Reference" "C38"
 			(at 116.84 76.2062 0)
 			(effects
 				(font
@@ -5500,7 +5350,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C34")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5515,7 +5365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1169fd03-4a65-46d8-92b6-a6f3d37d4c50")
-		(property "Reference" "R26"
+		(property "Reference" "R30"
 			(at 31.75 171.4499 0)
 			(effects
 				(font
@@ -5569,7 +5419,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R26")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5434,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "12341e7a-2e58-4a43-9e45-082a6a78643f")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR097"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -5634,7 +5484,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR089")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a37a914-84ca-4c6f-b931-8f556f8e7487")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR098"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -5700,77 +5550,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 201.93 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "203275a9-bfaa-4579-a1bb-53f872a54e9a")
-		(property "Reference" "C35"
-			(at 204.47 82.5562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "7.5uF"
-			(at 204.47 85.0962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 201.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 201.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "690d75e5-d1bc-4916-a23d-5b487872d24a")
-		)
-		(pin "1"
-			(uuid "16f6502e-5be3-4c23-959e-c9f09ce5400a")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C35")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20f87036-3fea-41ef-84a9-af9b713517f0")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0106"
 			(at 104.14 86.36 0)
 			(effects
 				(font
@@ -5835,7 +5615,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR087")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25156bff-4852-4115-965f-e410ae849663")
-		(property "Reference" "C36"
+		(property "Reference" "C40"
 			(at 110.49 83.8262 0)
 			(effects
 				(font
@@ -5905,23 +5685,24 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C36")
+					(reference "C40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 251.46 90.17 0)
+		(lib_id "power:+3.3V")
+		(at 246.38 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2657589d-d7e4-40fa-97f5-ee4a4d613801")
-		(property "Reference" "#PWR095"
-			(at 251.46 96.52 0)
+		(fields_autoplaced yes)
+		(uuid "26e7af12-ba81-494c-b16b-58ec3c739cfa")
+		(property "Reference" "#PWR0102"
+			(at 246.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,8 +5710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 255.27 92.202 0)
+		(property "Value" "+3.3V"
+			(at 246.38 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 90.17 0)
+			(at 246.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 90.17 0)
+			(at 246.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,8 +5736,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,12 +5746,166 @@
 			)
 		)
 		(pin "1"
-			(uuid "820b8e63-1a46-4e76-8056-5daf1dce0918")
+			(uuid "a30d89f0-3f9a-46a0-b323-facf2aaed30a")
 		)
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR095")
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2754d008-ee0b-4ece-8a49-64ff446ac59d")
+		(property "Reference" "#PWR0113"
+			(at 251.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f98d6ec4-6fa5-42f8-9667-9452d0b2f11c")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 262.89 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "283342bf-3363-4359-b0d3-4a304c6882ca")
+		(property "Reference" "D14"
+			(at 265.43 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 265.43 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SMF3.3"
+			(at 262.89 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SMF3.3"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39af19ea-6022-4462-aa27-ac700cb60025")
+		)
+		(pin "1"
+			(uuid "de623c5c-fa31-4a9e-8de0-a11f2ba6310f")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5986,7 +5921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5eb225-7cf9-4ac4-ae57-6111665ebabe")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0100"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -6036,7 +5971,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR082")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -6051,7 +5986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c2c9272-39d4-437b-8a1f-241b827e7427")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0103"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -6101,7 +6036,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR085")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30c1b968-3e99-41ba-8500-c23a43bc6aba")
-		(property "Reference" "C39"
+		(property "Reference" "C43"
 			(at 165.1 83.8262 0)
 			(effects
 				(font
@@ -6308,7 +6243,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C39")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6323,7 +6258,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "34e3ca27-ebe2-43fb-a4c4-590232e9ef7b")
-		(property "Reference" "R22"
+		(property "Reference" "R25"
 			(at 158.496 39.624 0)
 			(effects
 				(font
@@ -6377,76 +6312,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 240.03 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b20acf5-36ed-4a0c-a437-35fad2d63855")
-		(property "Reference" "C41"
-			(at 242.57 83.8262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 242.57 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2657a4a1-e47c-4ba0-bf0e-7f0ebc559d23")
-		)
-		(pin "1"
-			(uuid "d281df9a-f28a-4315-98ae-77ae00519088")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C41")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b68d725-5486-4e5d-a33d-cb36494ba19a")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0105"
 			(at 63.5 86.36 0)
 			(effects
 				(font
@@ -6512,7 +6378,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR0100")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6386,7 @@
 	)
 	(symbol
 		(lib_id "TLV9002QDRQ1:TLV9002QDRQ1")
-		(at 195.58 137.16 0)
+		(at 218.44 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6528,8 +6394,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fac1d0f-fb6a-487a-a81c-8f94a3088198")
-		(property "Reference" "IC4"
-			(at 209.55 129.54 0)
+		(property "Reference" "IC3"
+			(at 232.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6403,7 @@
 			)
 		)
 		(property "Value" "TLV9002QDRQ1"
-			(at 209.55 132.08 0)
+			(at 232.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6411,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 219.71 232.08 0)
+			(at 242.57 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6421,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9002-q1.pdf?ts=1606492484565&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV9002-Q1"
-			(at 219.71 332.08 0)
+			(at 242.57 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6431,7 @@
 			)
 		)
 		(property "Description" "Operational Amplifiers - Op Amps 2-Channel, 1MHz, RRIO, 1.8V to 5.5V operational amplifier for cost-optimized systems 8-SOIC -40 to 125"
-			(at 195.58 137.16 0)
+			(at 218.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6440,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 219.71 532.08 0)
+			(at 242.57 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6450,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TLV9002QDRQ1"
-			(at 219.71 632.08 0)
+			(at 242.57 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6460,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9002QDRQ1?qs=OTrKUuiFdkaZFErnMHVpZg%3D%3D"
-			(at 219.71 732.08 0)
+			(at 242.57 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +6470,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 219.71 832.08 0)
+			(at 242.57 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6480,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9002QDRQ1"
-			(at 219.71 932.08 0)
+			(at 242.57 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +6516,7 @@
 		(instances
 			(project ""
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "IC4")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -6665,7 +6531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40b61caf-8505-42ba-bcaa-829005773b24")
-		(property "Reference" "C40"
+		(property "Reference" "C37"
 			(at 66.04 74.9362 0)
 			(effects
 				(font
@@ -6719,7 +6585,162 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C40")
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 208.28 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fb3cae9-9a79-4f14-82fc-f5136442b0e7")
+		(property "Reference" "R28"
+			(at 208.28 74.93 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4.3k"
+			(at 208.28 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b420ac1-a0d9-4516-b573-7e4644711895")
+		)
+		(pin "1"
+			(uuid "c0309cf8-d97b-4eae-a2bd-763212a5c906")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 262.89 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5897e469-e215-4e13-ac9d-38d3fa122696")
+		(property "Reference" "D15"
+			(at 265.43 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 265.43 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SMF3.3"
+			(at 262.89 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SMF3.3"
+			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "633a3a67-d726-42bc-8927-d4fe136d41ad")
+		)
+		(pin "1"
+			(uuid "8ae4fc19-0082-4b7a-9cb2-fa0b9ca241aa")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6735,7 +6756,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "59933d1a-3045-4a30-bfc1-822c8fc4c790")
-		(property "Reference" "R21"
+		(property "Reference" "R24"
 			(at 155.448 40.386 90)
 			(effects
 				(font
@@ -6789,7 +6810,77 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R21")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 204.47 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a25fe56-13fc-4bac-b37a-485edadd74e5")
+		(property "Reference" "C39"
+			(at 207.01 82.5562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7.5uF"
+			(at 207.01 85.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba8b2af4-ed3a-402e-ac21-657af7b08b8f")
+		)
+		(pin "1"
+			(uuid "b7383a44-03c2-46d9-833e-cb236445c6eb")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6875,7 +6966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6171bc12-87f7-45ef-ab68-634b2ab5bff3")
-		(property "Reference" "C37"
+		(property "Reference" "C41"
 			(at 119.38 83.8262 0)
 			(effects
 				(font
@@ -6929,7 +7020,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C37")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -6945,7 +7036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64c801a7-7f00-41f9-96ad-a09adb99cb06")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0108"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -6995,7 +7086,74 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR092")
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 200.66 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65999804-df59-44a8-b9f2-02ac7de511e0")
+		(property "Reference" "R27"
+			(at 200.66 74.93 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 200.66 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5072360a-5e8c-45ab-9016-3bad2f56d90e")
+		)
+		(pin "1"
+			(uuid "e8b2e979-69ec-4a75-aa43-833461f5a378")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d3dfaa-c0bf-4080-982a-c9d2ef33625b")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0104"
 			(at 24.13 86.36 0)
 			(effects
 				(font
@@ -7061,42 +7219,24 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR086")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 251.46 77.47 270)
+		(lib_id "power:+3.3V")
+		(at 262.89 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74b62d4e-7b01-4a2f-8bab-458a64e97898")
-		(property "Reference" "D12"
-			(at 254 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS"
-			(at 254 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 251.46 77.47 0)
+		(uuid "77988593-6e69-458b-a806-21fc3ea83d2b")
+		(property "Reference" "#PWR0101"
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,166 +7244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
-			(at 251.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 251.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SMF3.3"
-			(at 251.46 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-SMF3.3"
-			(at 251.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9fee021d-c0fd-48d4-90bf-e8cf0b5ea5f3")
-		)
-		(pin "1"
-			(uuid "91b91712-d5f9-4b43-af3f-cf619943f3c1")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 251.46 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a3c5b5a-82ad-45c1-8523-4e8ee9377d73")
-		(property "Reference" "D13"
-			(at 254 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS"
-			(at 254 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SMF3.3"
-			(at 251.46 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-SMF3.3"
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0428c88f-620e-447e-945c-7ed402dcb0ea")
-		)
-		(pin "1"
-			(uuid "90c30553-f3b8-44ae-a321-82f1e0779aa8")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7df953f1-5f05-4358-970e-5f3836ee53b3")
-		(property "Reference" "#PWR0102"
-			(at 195.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 153.67 0)
+		(property "Value" "+3.3V"
+			(at 262.89 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 148.59 0)
+			(at 262.89 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7262,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 148.59 0)
+			(at 262.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 262.89 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92e9d94f-4db7-4b5b-8ad1-40957cc37ee4")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df953f1-5f05-4358-970e-5f3836ee53b3")
+		(property "Reference" "#PWR0110"
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 148.59 0)
+			(at 218.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,7 +7351,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR0102")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7318,7 +7366,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7e434fa3-3cf1-41b1-af1a-993fb38d544e")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR095"
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -7368,23 +7416,24 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR079")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 236.22 76.2 0)
+		(lib_id "power:GND")
+		(at 204.47 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "86a1e980-c14b-432b-a189-911616906d3b")
-		(property "Reference" "#PWR084"
-			(at 236.22 80.01 0)
+		(fields_autoplaced yes)
+		(uuid "87e553ae-1f5e-4c2e-ba5b-68cc1366fbe7")
+		(property "Reference" "#PWR0109"
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,8 +7441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 235.966 72.136 0)
+		(property "Value" "GND"
+			(at 204.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 76.2 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 76.2 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,8 +7467,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 236.22 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,12 +7477,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7107562-c14a-4a27-809c-f3f8b5960226")
+			(uuid "8deb599d-ee40-407d-9892-2cf42d7bdeba")
 		)
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR084")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -7441,32 +7490,33 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 223.52 68.58 90)
+		(at 212.09 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9072df0a-ad45-4b7e-b5a3-e546bedcf66f")
-		(property "Reference" "C33"
-			(at 223.5263 62.23 90)
+		(uuid "8bcb8fa3-f1af-47fd-9cab-3b3f20c1106d")
+		(property "Reference" "C36"
+			(at 214.122 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 223.5263 64.77 90)
+			(at 214.122 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 223.52 68.58 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 68.58 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7534,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 223.52 68.58 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,15 +7543,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "dbac44cd-bedf-4995-ba59-e5bb9f6f3946")
+			(uuid "155da2d2-b93d-4e0f-b639-f48855003cb5")
 		)
 		(pin "1"
-			(uuid "89072f44-7783-4b08-a41f-e6d9247e7f26")
+			(uuid "e3fe74a2-a603-415b-beb0-dbb525ddfc6a")
 		)
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C33")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -7517,7 +7567,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "93e16c3d-ccb3-4fd4-b73b-3c5a2a1689c1")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 174.498 37.592 0)
 			(effects
 				(font
@@ -7578,7 +7628,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -7594,7 +7644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96b497c1-23fa-4788-9226-115254d42202")
-		(property "Reference" "TP8"
+		(property "Reference" "TP10"
 			(at 45.72 40.6399 90)
 			(effects
 				(font
@@ -7645,73 +7695,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e3431a3-c9f1-4ff3-a7df-e562164f0ecd")
-		(property "Reference" "#PWR094"
-			(at 210.82 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df440108-399a-4e31-8167-d7b33257b8a5")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR094")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -7726,7 +7710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0c6b44e-cd79-4543-9afa-ed9bb8a46a17")
-		(property "Reference" "R25"
+		(property "Reference" "R29"
 			(at 31.75 158.7499 0)
 			(effects
 				(font
@@ -7780,7 +7764,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R25")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1bf271c-1a56-4624-9207-bbb4230a6068")
-		(property "Reference" "TP12"
+		(property "Reference" "TP14"
 			(at 35.56 176.5299 90)
 			(effects
 				(font
@@ -7847,73 +7831,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a525a4f6-7aa7-4c95-a29d-10bfc6fa9edd")
-		(property "Reference" "#PWR090"
-			(at 236.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8db4be8-51ca-4d2a-97f0-be2fd75afdfc")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR090")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8000,205 +7918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 205.74 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9bc0aff-70d5-4b61-930c-76d39236fc3f")
-		(property "Reference" "R24"
-			(at 205.74 74.93 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.3k"
-			(at 205.74 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e9a8d59-b7a3-481f-a3c7-95d81476bd82")
-		)
-		(pin "1"
-			(uuid "f4c486fa-bfba-4155-b6a9-2fdf4ce4f85d")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 205.74 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b24832d0-b3b1-4fd9-ab6b-c5604f0b31e0")
-		(property "Reference" "R20"
-			(at 205.74 61.976 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "8.2k"
-			(at 205.74 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 205.74 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fce22f39-5b30-49b8-ac83-21c5be56037b")
-		)
-		(pin "1"
-			(uuid "73b828bb-72d9-499f-bc6d-bb914e816b4a")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 223.52 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b47ed64d-4a73-4116-9a4c-1c32283fd338")
-		(property "Reference" "#PWR0101"
-			(at 223.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 227.076 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 223.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cde628fc-8a57-4748-868f-8082d5f7c3ca")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 30.48 154.94 270)
 		(unit 1)
@@ -8208,7 +7927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6ba210c-e71e-497d-9e17-3219c83be483")
-		(property "Reference" "TP10"
+		(property "Reference" "TP12"
 			(at 35.56 153.6699 90)
 			(effects
 				(font
@@ -8259,7 +7978,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "TP10")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -8405,73 +8124,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 198.12 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bda07886-3d32-4cbb-ad1e-76127fa137f0")
-		(property "Reference" "R23"
-			(at 198.12 74.93 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 198.12 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 198.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 198.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36c826aa-5d3a-4976-bf05-149c2a02deb0")
-		)
-		(pin "1"
-			(uuid "457e3110-6953-4df7-b423-8f9b4244b2e6")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 44.45 0)
 		(unit 1)
@@ -8480,7 +8132,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bde56902-8814-43ae-a91d-deb8c24fb83c")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR096"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -8530,7 +8182,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR088")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -8538,16 +8190,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 87.63 0)
+		(at 262.89 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1c9847c-7304-487e-96ab-a99ce125fc0d")
-		(property "Reference" "#PWR093"
-			(at 201.93 93.98 0)
+		(uuid "c77b4481-7965-4236-a615-6d37ed6aa1b0")
+		(property "Reference" "#PWR0111"
+			(at 262.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 92.71 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8564,7 +8216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 87.63 0)
+			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,7 +8225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 87.63 0)
+			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8582,7 +8234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 87.63 0)
+			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,12 +8243,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bba899e4-1d63-4243-9aca-8fe83988cab9")
+			(uuid "d9b0ff10-7392-4f21-b197-68ea932f5ffa")
 		)
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR093")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8691,7 +8343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce0df8ec-0be9-49e8-8d0f-8c519ecab84f")
-		(property "Reference" "TP11"
+		(property "Reference" "TP13"
 			(at 45.72 165.0999 90)
 			(effects
 				(font
@@ -8742,7 +8394,144 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "TP11")
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d01acfd4-7b79-41d7-ac42-309ee559cd9b")
+		(property "Reference" "C44"
+			(at 254 99.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 254 101.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4798be55-3c13-495e-b69c-94fa43a1b91c")
+		)
+		(pin "1"
+			(uuid "95f901e0-6f31-4756-b4f4-adab77575560")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 204.47 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d12a2992-3402-4f0e-a10d-9707cfe3fdaf")
+		(property "Reference" "R26"
+			(at 207.772 71.12 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 207.772 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c77f086e-8702-4b6c-b233-6f7dd6db55b4")
+		)
+		(pin "1"
+			(uuid "e745535b-df6d-4023-8246-2af0a1c49f1d")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8758,7 +8547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d159ee08-53db-4c4b-b94d-c9dc196eebd2")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0107"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -8808,7 +8597,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR091")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -8884,134 +8673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OPA396DCKR:OPA396DCKR")
-		(at 210.82 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d801647a-5355-476e-9ddb-0eb86f013066")
-		(property "Reference" "IC3"
-			(at 223.012 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA396DCKR"
-			(at 223.266 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Parts:SOT65P210X110-5N"
-			(at 232.41 173.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa396"
-			(at 232.41 273.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision Amplifiers Single micro-power, high-precision, wide bandwidth RRIO op amp with e-Trim"
-			(at 210.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 232.41 473.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-OPA396DCKR"
-			(at 232.41 573.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA396DCKR?qs=pBJMDPsKWf3kPopX8lKQVQ%3D%3D"
-			(at 232.41 673.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 232.41 773.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "OPA396DCKR"
-			(at 232.41 873.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2e8d962-2e1d-4f60-a656-af46066cabb8")
-		)
-		(pin "2"
-			(uuid "c9a03337-f372-4ec4-a659-c3de73c12228")
-		)
-		(pin "4"
-			(uuid "90345236-9e87-4285-a5e6-c92addef4b80")
-		)
-		(pin "3"
-			(uuid "c0af47c9-ba6a-4606-8b55-2d786c1ec904")
-		)
-		(pin "5"
-			(uuid "9c8b3557-6e97-4872-a547-2927ec99f15b")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 154.94 85.09 0)
 		(unit 1)
@@ -9020,7 +8681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0c18836-7708-4556-98c8-dd07489332dd")
-		(property "Reference" "C38"
+		(property "Reference" "C42"
 			(at 157.48 83.8262 0)
 			(effects
 				(font
@@ -9074,7 +8735,73 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "C38")
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62a67bb-16ca-4b11-9583-da2aa1da6607")
+		(property "Reference" "#PWR0112"
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d05ee429-9c73-4358-b583-ae2f3561f6ba")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -9090,7 +8817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa1d53f-9fd6-44e4-ba1b-374a54457655")
-		(property "Reference" "TP9"
+		(property "Reference" "TP11"
 			(at 45.72 45.7199 90)
 			(effects
 				(font
@@ -9141,7 +8868,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "TP9")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -9157,7 +8884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f28e67a2-c17e-4097-a20c-0944f1b55613")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR099"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -9207,72 +8934,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 251.46 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6973d78-5951-4495-b93b-739616163f6c")
-		(property "Reference" "#PWR083"
-			(at 251.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 255.016 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 251.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd23f294-8b76-423e-bd66-8db775451b46")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "#PWR083")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)

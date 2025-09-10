@@ -664,6 +664,10 @@
     [
       "7e38ba4d-a54c-4f69-a074-7d0a3dae713a",
       "Current Sense"
+    ],
+    [
+      "bd9a5644-5430-4918-ab28-771dd7faeab6",
+      "PowerProtection"
     ]
   ],
   "text_variables": {}
