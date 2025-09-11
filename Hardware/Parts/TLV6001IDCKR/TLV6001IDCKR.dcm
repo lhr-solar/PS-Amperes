@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TLV6001IDCKR
-D 1-MHz, Low-Power Operational Amplifier for Cost-Sensitive Systems
-K
-F http://www.ti.com/lit/gpn/tlv6001
-$ENDCMP
-#
-#End Doc Library
