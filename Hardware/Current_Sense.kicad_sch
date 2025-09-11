@@ -2390,20 +2390,8 @@
 		(uuid 58594c1b-36b6-403d-a3df-0b01ae739319)
 	)
 	(rectangle
-		(start 187.96 60.96)
-		(end 281.94 116.84)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6a863208-1127-4d6b-87e8-7c32629ed022)
-	)
-	(rectangle
 		(start 15.24 60.96)
-		(end 81.28 116.84)
+		(end 281.94 116.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -2438,11 +2426,11 @@
 		(uuid 87ae7168-15a9-4cba-89bf-ae8e62c2f6e7)
 	)
 	(rectangle
-		(start 99.06 60.96)
-		(end 172.72 116.84)
+		(start 90.932 60.96)
+		(end 179.324 116.84)
 		(stroke
 			(width 0)
-			(type default)
+			(type dot)
 		)
 		(fill
 			(type none)
@@ -2451,7 +2439,7 @@
 	)
 	(text "Gain: 100 V/V (INA241 A4 version)\n\nReference voltage (bias for discharge): 1.25V\n* (70A * 250 uOhm * 100)V + Vref = 3 V\n* (-32A * 250 uOhm * 100)V + Vref = 0.45 V\n\nMaximum current range: -44 to +80A (0.1 to 3.2V output)"
 		(exclude_from_sim no)
-		(at 17.78 99.06 0)
+		(at 20.32 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,7 +2518,7 @@
 	)
 	(text "Bidirectional current sense amp"
 		(exclude_from_sim no)
-		(at 17.272 63.5 0)
+		(at 20.32 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2553,6 +2541,17 @@
 			(justify left)
 		)
 		(uuid "443c9291-c5d6-4faf-b68d-3207aea4e3cc")
+	)
+	(text "Gain: 100 V/V\nRsense = 250 uOhm\nPsense = Rsense * (70A)^2 = 1.225 W\n\nPicked shunt first, then adjusted gain to meet ADC range\nIf additional gain is needed, tweak filter circuit"
+		(exclude_from_sim no)
+		(at 91.44 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5767ac17-ea60-490f-9568-a249a324496b")
 	)
 	(text "Isolation"
 		(exclude_from_sim no)
@@ -2626,18 +2625,6 @@
 			(justify left top)
 		)
 		(uuid "89fbbee2-3e3d-4e8c-961d-e93431375cbd")
-	)
-	(text "add justification / documentation"
-		(exclude_from_sim no)
-		(at 86.106 128.27 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(color 255 30 62 1)
-			)
-			(justify left top)
-		)
-		(uuid "93b6c654-6ba1-410b-904f-eac426b3d997")
 	)
 	(text "Voltage Reference (1.25V)"
 		(exclude_from_sim no)
@@ -2869,7 +2856,7 @@
 		(uuid "d6970159-e22c-4794-8145-ba5d0ce57f97")
 	)
 	(junction
-		(at 54.61 82.55)
+		(at 57.15 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3322cbb-e5b8-4584-9494-499dd58ebaaf")
@@ -2881,7 +2868,7 @@
 		(uuid "e3c4ab9d-1062-4040-8788-755258c64c0a")
 	)
 	(junction
-		(at 57.15 78.74)
+		(at 59.69 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e8f345-3df1-41af-85b6-20f5c03ddd2c")
@@ -2914,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 54.61 82.55)
+			(xy 57.15 81.28) (xy 57.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 76.2) (xy 26.67 76.2)
+			(xy 21.59 76.2) (xy 29.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 69.85 76.2)
+			(xy 57.15 76.2) (xy 72.39 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 67.31 85.09)
+			(xy 69.85 83.82) (xy 69.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 82.55) (xy 57.15 82.55)
+			(xy 57.15 82.55) (xy 59.69 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3504,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 81.28) (xy 26.67 81.28)
+			(xy 26.67 81.28) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 78.74) (xy 26.67 78.74)
+			(xy 21.59 78.74) (xy 29.21 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3694,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 82.55) (xy 54.61 83.82)
+			(xy 57.15 82.55) (xy 57.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 78.74)
+			(xy 59.69 74.93) (xy 59.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3814,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 78.74) (xy 57.15 78.74)
+			(xy 57.15 78.74) (xy 59.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 78.74) (xy 67.31 78.74)
+			(xy 59.69 78.74) (xy 69.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3874,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 81.28) (xy 24.13 85.09)
+			(xy 26.67 81.28) (xy 26.67 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3893,7 +3880,7 @@
 		(uuid "fa8c1fb0-db12-4833-81dc-ba9e9f701540")
 	)
 	(image
-		(at 45.72 89.662)
+		(at 48.26 89.662)
 		(scale 0.258337)
 		(uuid "60284845-616b-4b1c-986a-f62ccb3d9aa8")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAbIAAAA4CAIAAAAXTepBAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -3995,8 +3982,8 @@
 		)
 	)
 	(image
-		(at 49.53 128.27)
-		(scale 0.476794)
+		(at 51.562 128.524)
+		(scale 0.511845)
 		(uuid "607753a1-e9bb-41f8-903c-1bdacc12b785")
 		(data "iVBORw0KGgoAAAANSUhEUgAABpYAAAFVCAIAAABq3UtYAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdd0AUx/838Lk7OiLFAorGggVRbIjYFRUVFbtBY6zYUGOLNZaoEY2xxtg1ttgQUbFgxUIUAUVB"
@@ -5530,7 +5517,7 @@
 		(uuid "44706d10-1ebf-4ac9-af2f-9e6b76a1d592")
 	)
 	(label "INPUT+"
-		(at 19.05 76.2 0)
+		(at 21.59 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5540,7 +5527,7 @@
 		(uuid "4d13298d-cd42-4791-a04b-7bf6b05f4ea3")
 	)
 	(label "SENSE+"
-		(at 69.85 76.2 180)
+		(at 72.39 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5640,7 +5627,7 @@
 		(uuid "e53c537b-db64-4438-b105-2b1a8ca1f498")
 	)
 	(label "INPUT-"
-		(at 19.05 78.74 0)
+		(at 21.59 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5887,7 +5874,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 57.15 74.93 0)
+		(at 59.69 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5896,7 +5883,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a37a914-84ca-4c6f-b931-8f556f8e7487")
 		(property "Reference" "#PWR099"
-			(at 57.15 78.74 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5892,7 @@
 			)
 		)
 		(property "Value" "+3.3V HV"
-			(at 57.15 69.85 0)
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +5900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 74.93 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 74.93 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +5918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 74.93 0)
+			(at 59.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6426,7 @@
 	)
 	(symbol
 		(lib_id "INA241:INA241A5IDR")
-		(at 26.67 76.2 0)
+		(at 29.21 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6448,7 +6435,7 @@
 		(fields_autoplaced yes)
 		(uuid "300a8154-d203-441f-8ee5-c6106e938227")
 		(property "Reference" "IC1"
-			(at 40.64 68.58 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6443,7 @@
 			)
 		)
 		(property "Value" "INA241A4IDR"
-			(at 40.64 71.12 0)
+			(at 43.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6451,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 50.8 171.12 0)
+			(at 53.34 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6461,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina241a.pdf?ts=1712302873194&ref_url=https%253A%252F%252Fwww.mouser.in%252F"
-			(at 50.8 271.12 0)
+			(at 53.34 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6471,7 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifiers -5-V to 110-V bidirectional ultraprecise current sense amplifier with enhanced PWM rejection 8-SOIC -40 to 125"
-			(at 26.67 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6480,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 50.8 471.12 0)
+			(at 53.34 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6490,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA241A4IDR"
-			(at 50.8 571.12 0)
+			(at 53.34 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6500,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/INA241A4IDR?qs=ST9lo4GX8V17OOIOvleTcQ%3D%3D"
-			(at 50.8 671.12 0)
+			(at 53.34 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6510,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 50.8 771.12 0)
+			(at 53.34 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6520,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA241A4IDR"
-			(at 50.8 871.12 0)
+			(at 53.34 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 85.09 0)
+		(at 69.85 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6721,7 +6708,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b68d725-5486-4e5d-a33d-cb36494ba19a")
 		(property "Reference" "#PWR0106"
-			(at 67.31 91.44 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6717,7 @@
 			)
 		)
 		(property "Value" "GND HV"
-			(at 67.31 90.17 0)
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 85.09 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 85.09 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +6743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 85.09 0)
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +6903,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 67.31 81.28 0)
+		(at 69.85 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6924,7 +6911,7 @@
 		(dnp no)
 		(uuid "40b61caf-8505-42ba-bcaa-829005773b24")
 		(property "Reference" "C37"
-			(at 69.85 80.0162 0)
+			(at 72.39 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +6920,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 69.85 82.5562 0)
+			(at 72.39 82.5562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +6929,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 67.31 81.28 0)
+			(at 69.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 81.28 0)
+			(at 69.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +6947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 81.28 0)
+			(at 69.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7687,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 85.09 0)
+		(at 26.67 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7709,7 +7696,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d3dfaa-c0bf-4080-982a-c9d2ef33625b")
 		(property "Reference" "#PWR0105"
-			(at 24.13 91.44 0)
+			(at 26.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7705,7 @@
 			)
 		)
 		(property "Value" "GND HV"
-			(at 24.13 90.17 0)
+			(at 26.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +7713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 85.09 0)
+			(at 26.67 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 85.09 0)
+			(at 26.67 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 85.09 0)
+			(at 26.67 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V35")
-		(at 57.15 82.55 0)
+		(at 59.69 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8463,7 +8450,7 @@
 		(dnp no)
 		(uuid "af78eaa8-c3ec-479c-9bb7-6603f1163744")
 		(property "Reference" "#PWR0122"
-			(at 57.15 86.36 0)
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8459,7 @@
 			)
 		)
 		(property "Value" "+1V25"
-			(at 60.96 80.518 0)
+			(at 63.5 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 82.55 0)
+			(at 59.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 82.55 0)
+			(at 59.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 57.15 82.55 0)
+			(at 59.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WSBS8518L2500JK"
+		(property "Footprint" "Parts:WSBS8518L2500JK"
 			(at 124.13 49.53 0)
 			(effects
 				(font

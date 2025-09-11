@@ -3472,18 +3472,6 @@
 		)
 		(uuid "5991b012-091f-45e0-8dcf-0bb5d416eacc")
 	)
-	(text "right order? -->"
-		(exclude_from_sim no)
-		(at 133.858 132.588 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 30 62 1)
-			)
-			(justify left top)
-		)
-		(uuid "5b172b76-513e-4b55-bd1e-8dc3f3115a4a")
-	)
 	(text "Mates with 0022013047"
 		(exclude_from_sim no)
 		(at 148.844 66.04 0)

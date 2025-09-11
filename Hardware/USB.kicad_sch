@@ -2506,6 +2506,17 @@
 		)
 		(uuid "55a3b89e-8cd4-4634-860d-91aa02e7988c")
 	)
+	(text "Vertical USB C Port"
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "5eab73eb-6d1d-4f85-a60a-7c01ef1bb590")
+	)
 	(text "VDD Bypass"
 		(exclude_from_sim no)
 		(at 105.918 46.99 0)
@@ -2515,17 +2526,6 @@
 			)
 		)
 		(uuid "72fe0fff-5798-428e-89ea-b715704cdd73")
-	)
-	(text "Port"
-		(exclude_from_sim no)
-		(at 30.226 28.194 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-			)
-		)
-		(uuid "78b5c604-bd42-45db-b503-11e2509c7171")
 	)
 	(text "CCx Pulldown"
 		(exclude_from_sim no)
@@ -2558,17 +2558,6 @@
 			)
 		)
 		(uuid "a05dacdf-b0a8-4752-a2d2-e2f82384a41c")
-	)
-	(text "TODO: find vertical port"
-		(exclude_from_sim no)
-		(at 64.516 79.248 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(color 255 30 62 1)
-			)
-		)
-		(uuid "cb2b5aac-a7ce-435d-8dc3-ad1c605a951e")
 	)
 	(text "USB Protection"
 		(exclude_from_sim no)
@@ -5377,7 +5366,7 @@
 				)
 			)
 		)
-		(property "Value" "??"
+		(property "Value" "USB4120-03-C"
 			(at 30.48 33.02 0)
 			(effects
 				(font
@@ -5385,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Parts:USB412003C"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -5394,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/GCT_USB4120.pdf"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -5412,7 +5401,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "USB4120-03-C"
 			(at 30.48 53.34 0)
 			(effects
 				(font
