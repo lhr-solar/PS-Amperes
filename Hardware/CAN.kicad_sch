@@ -1989,7 +1989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18d26b8b-9720-4528-995a-f0f08dd4598e")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 50.8 88.9 0)
 			(effects
 				(font
@@ -2039,7 +2039,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2322,7 +2322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c82d6d6-01d5-4976-a713-b50ea47d09bb")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 127 55.88 0)
 			(effects
 				(font
@@ -2372,7 +2372,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2699,7 +2699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "655ba885-9026-4d25-8618-bfe38692ff1c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 24.13 36.83 0)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ec13f3f-6dd3-46a6-89b4-c5307cecf18e")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -3000,7 +3000,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3015,7 +3015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b83702f9-fe37-4aed-8f62-3dd992d84307")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -3065,7 +3065,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3080,7 +3080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c91cc79c-1226-4f45-a489-729b07faab32")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3145,7 +3145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e54f53bd-32d3-4970-95c9-65b301e68317")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 104.14 38.1 0)
 			(effects
 				(font
@@ -3195,7 +3195,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/2dff07b6-7dab-4ebe-8bad-c03f5c351937"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)

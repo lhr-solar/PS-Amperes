@@ -762,6 +762,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -3248,7 +3398,7 @@
 	)
 	(rectangle
 		(start 147.32 113.03)
-		(end 225.298 156.21)
+		(end 241.3 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -3533,6 +3683,12 @@
 		(uuid "521b2d96-2ff8-4613-b318-5958fd5223be")
 	)
 	(junction
+		(at 223.52 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c08eb5-4625-4956-88ef-261242c44efd")
+	)
+	(junction
 		(at 210.82 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3796,6 +3952,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 132.08) (xy 223.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a81188-9015-4b57-9704-4bf27f9abe56")
+	)
+	(wire
+		(pts
 			(xy 38.1 46.99) (xy 43.18 46.99)
 		)
 		(stroke
@@ -3946,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 129.54) (xy 176.53 129.54)
+			(xy 176.53 129.54) (xy 186.69 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4043,6 +4209,16 @@
 			(type default)
 		)
 		(uuid "4e4f120b-4e09-43e7-82ca-636582078228")
+	)
+	(wire
+		(pts
+			(xy 223.52 132.08) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eac0f34-3312-4b66-b82f-1da3f9e35c2b")
 	)
 	(wire
 		(pts
@@ -4163,16 +4339,6 @@
 			(type default)
 		)
 		(uuid "6d862116-86e4-49fc-a3db-f7af0eca48a3")
-	)
-	(wire
-		(pts
-			(xy 186.69 129.54) (xy 185.42 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70372354-c3f7-44e3-a0dc-8da732764ed5")
 	)
 	(wire
 		(pts
@@ -4696,6 +4862,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 139.7) (xy 223.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf87b0f-16ef-4337-85d4-7cb5c26ea765")
+	)
+	(wire
+		(pts
 			(xy 88.9 60.96) (xy 101.6 60.96)
 		)
 		(stroke
@@ -4733,16 +4909,6 @@
 			(type default)
 		)
 		(uuid "f575d152-626f-455e-b6ae-74029889cf71")
-	)
-	(wire
-		(pts
-			(xy 214.63 132.08) (xy 222.25 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbd36474-e1eb-4a17-a359-862a2a8559c7")
 	)
 	(wire
 		(pts
@@ -6159,7 +6325,7 @@
 		(uuid "0c1da567-d797-43ec-bf49-08e761736ef9")
 	)
 	(label "BOOT0"
-		(at 222.25 132.08 180)
+		(at 231.14 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6390,7 +6556,7 @@
 		(uuid "62731abf-94f6-4386-b5e8-f00b97f58205")
 	)
 	(hierarchical_label "ADC1_IN16"
-		(shape output)
+		(shape input)
 		(at 54.61 63.5 180)
 		(effects
 			(font
@@ -6432,7 +6598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04da7290-3360-403c-893e-04134f9deb9c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 247.65 96.52 0)
 			(effects
 				(font
@@ -6482,7 +6648,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6497,7 +6663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f9710a6-6646-4456-ad04-3acc26f34f48")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 201.93 148.59 0)
 			(effects
 				(font
@@ -6547,7 +6713,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6773,7 +6939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "286cd8d8-70c6-4e6b-be8f-d7e69f2e6757")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -6823,7 +6989,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7135,7 +7301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dc3896f-c2fa-4b3c-a73b-23c930bf6f1e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 153.67 78.74 0)
 			(effects
 				(font
@@ -7185,7 +7351,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7200,7 +7366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f779a00-7ec4-4bf7-98bf-d80286284f4c")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -7250,7 +7416,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7266,7 +7432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34628eff-c95e-44ab-a138-a7ce8597f662")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 82.55 123.19 0)
 			(effects
 				(font
@@ -7316,7 +7482,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7331,7 +7497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bf063a4-f76d-4e6c-978d-04893202740e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 210.82 46.99 0)
 			(effects
 				(font
@@ -7381,7 +7547,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7397,7 +7563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41a7f9c8-f2e8-4808-a503-d5de67c68145")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -7447,7 +7613,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7741,7 +7907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "490d10c7-020b-419b-bdbd-e497f5ba9878")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 165.1 129.54 0)
 			(effects
 				(font
@@ -7791,7 +7957,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a41805c-b9ee-46a6-b560-bcff557e595e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 78.74 29.21 0)
 			(effects
 				(font
@@ -7856,7 +8022,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8118,6 +8284,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "548bf7a7-7694-4a68-9816-682476f6010f")
+		(property "Reference" "#PWR0123"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c0138f7-9487-4498-a04c-82fcc6e565d9")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 210.82 35.56 0)
 		(unit 1)
@@ -8233,7 +8464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "554adba8-0599-46c6-96e2-d840087f8356")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -8283,7 +8514,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8455,7 +8686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "590ec054-c805-4195-a0bc-fc46fd3c5b88")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 264.16 33.02 0)
 			(effects
 				(font
@@ -8505,7 +8736,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8627,7 +8858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6145865c-f976-44a1-9cdf-06473c770e9d")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 214.63 96.52 0)
 			(effects
 				(font
@@ -8677,7 +8908,7 @@
 		(instances
 			(project ""
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8693,7 +8924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "640bfa0a-0a03-42e0-8083-7a6f94ce0f6e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 262.89 96.52 0)
 			(effects
 				(font
@@ -8743,7 +8974,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8759,7 +8990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf4b47b-8d29-4cff-a597-7f4ac71b381f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 154.94 33.02 0)
 			(effects
 				(font
@@ -8809,7 +9040,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8895,7 +9126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b655c7-2d65-425b-b778-3f8ca6917844")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -8945,7 +9176,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -9257,7 +9488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b75db0-f4b8-4a08-ad0c-92f63044bcd4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 243.84 33.02 0)
 			(effects
 				(font
@@ -9307,7 +9538,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9321,10 +9552,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9872e9a8-bbc4-46d2-807d-84ba716f64c3")
 		(property "Reference" "U6"
-			(at 214.63 125.6598 0)
+			(at 210.82 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9562,7 @@
 			)
 		)
 		(property "Value" "74AHC1G32"
-			(at 214.63 128.1998 0)
+			(at 210.82 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,83 +9902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 129.54 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9817576-d45f-4cf1-a03d-c24f4653bf4b")
-		(property "Reference" "R15"
-			(at 181.61 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 181.61 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 181.61 127.762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb445a66-a496-466f-9fd6-66817e9529a7")
-		)
-		(pin "2"
-			(uuid "97e0431b-cdfd-47b2-9f24-94f1a2e2bfd1")
-		)
-		(instances
-			(project "BPS-AmperesPCB"
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 177.8 35.56 0)
 		(unit 1)
@@ -10073,7 +10226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4df79d1-a9ec-4d9f-a23d-51610cdc3b5a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -10123,7 +10276,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10382,7 +10535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa21d1a-3434-4399-9b58-5927cdb56efc")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 73.66 29.21 0)
 			(effects
 				(font
@@ -10432,7 +10585,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10447,7 +10600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1322dcb-9860-4a09-a720-9fdbd67b302b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 24.13 59.69 0)
 			(effects
 				(font
@@ -10497,7 +10650,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10513,7 +10666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1455d45-db94-4fe6-943d-6df323ef9708")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -10563,7 +10716,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10579,7 +10732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e17d94da-ebed-4e1c-9f43-4fc1a0288c23")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -10629,7 +10782,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10644,7 +10797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef2c6dcb-eb5f-4aaf-b947-5b3014b8bed3")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -10694,7 +10847,7 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10710,7 +10863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f363b127-792c-4b51-9106-1973d367f194")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 195.58 69.85 0)
 			(effects
 				(font
@@ -10760,7 +10913,86 @@
 		(instances
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "#PWR058")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 223.52 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b4e32a-03f7-49b1-9403-aa7b3a623e68")
+		(property "Reference" "D18"
+			(at 226.06 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 226.06 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SMF3.3"
+			(at 223.52 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "391d3676-e709-41c6-901a-4dde4139af14")
+		)
+		(pin "1"
+			(uuid "4e78207b-b209-4141-84f2-2ee9ce2d4be3")
+		)
+		(instances
+			(project "BPS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "D18")
 					(unit 1)
 				)
 			)
