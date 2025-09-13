@@ -11282,7 +11282,7 @@
 			)
 		)
 		(instances
-			(project "BPS-AmperesPCB"
+			(project "PS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/3b2a70f8-48f8-45b9-b0fe-085893d574c0"
 					(page "7")
 				)

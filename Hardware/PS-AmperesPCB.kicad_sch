@@ -864,7 +864,7 @@
 		)
 		(uuid "7c37b236-3057-4032-9536-f30fce129b98")
 	)
-	(text "Current measuring board for BPS\n\nBattery Current Range:\n* Charge (-): 32A thru Elcon; max 54A from cell\n* Discharge (+): 70A\nI_OUT Range: 0.45 to 3 V (for -32 to 70A range)\n\nMax Measurable Current Range: -44 to 80A\nMax I_OUT Range: 0.1 - 3.2 V\n"
+	(text "Current measuring board for battery\n\nBattery Current Range:\n* Charge (-): 32A thru Elcon; max 54A from cell\n* Discharge (+): 70A\nI_OUT Range: 0.45 to 3 V (for -32 to 70A range)\n\nMax Measurable Current Range: -44 to 80A\nMax I_OUT Range: 0.1 - 3.2 V\n"
 		(exclude_from_sim no)
 		(at 17.78 111.76 0)
 		(effects
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(instances
-			(project "BPS-AmperesPCB"
+			(project "PS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(page "4")
 				)
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(instances
-			(project "BPS-AmperesPCB"
+			(project "PS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(page "2")
 				)
@@ -2389,7 +2389,7 @@
 			)
 		)
 		(instances
-			(project "BPS-AmperesPCB"
+			(project "PS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(page "6")
 				)
@@ -2473,7 +2473,7 @@
 			)
 		)
 		(instances
-			(project "BPS-AmperesPCB"
+			(project "PS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(page "3")
 				)
@@ -2527,7 +2527,7 @@
 			)
 		)
 		(instances
-			(project "BPS-AmperesPCB"
+			(project "PS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(page "5")
 				)

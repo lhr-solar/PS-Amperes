@@ -5,251 +5,6 @@
 	(uuid "8301ea2d-d29a-4a68-817a-01ca835cccb1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74AHC1G32"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74AHC1G32"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single OR Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate OR LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT* SG-*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AHC1G32_0_1"
-				(arc
-					(start -7.62 5.08)
-					(mid -5.838 0)
-					(end -7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -6.35 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.202 -3.202)
-					(end 0 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 5.08)
-					(mid 3.2271 3.2271)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74AHC1G32_1_1"
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -2569,6 +2324,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SN74AHC1G32DBVR:SN74AHC1G32DBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC5"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74AHC1G32DBVR"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g32"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 2-Input Positive-OR Gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN74AHC1G32DBVR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G32DBVR?qs=IEl3ej0IqwA4lppRQbnCFA%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AHC1G32DBVR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC1G32DBVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -3398,7 +3357,7 @@
 	)
 	(rectangle
 		(start 147.32 113.03)
-		(end 241.3 154.94)
+		(end 228.6 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -3572,7 +3531,7 @@
 		)
 		(uuid "b5a26840-7966-4ff7-8a46-d32aaa273589")
 	)
-	(text "TODO: tie Boot_GPIO to a pin\n- pick part"
+	(text "TODO: tie Boot_GPIO to a pin"
 		(exclude_from_sim no)
 		(at 153.67 145.796 0)
 		(effects
@@ -3605,6 +3564,16 @@
 			(justify left bottom)
 		)
 		(uuid "e55ec453-c6a9-415f-a702-fb1f822f7b8d")
+	)
+	(text "OR Gate"
+		(exclude_from_sim no)
+		(at 199.136 138.938 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "e80ea6e3-b775-4ec6-910d-b798d5f68e3c")
 	)
 	(text "Bypass, Separation"
 		(exclude_from_sim no)
@@ -3671,12 +3640,6 @@
 		(uuid "521b2d96-2ff8-4613-b318-5958fd5223be")
 	)
 	(junction
-		(at 223.52 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56c08eb5-4625-4956-88ef-261242c44efd")
-	)
-	(junction
 		(at 210.82 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3723,6 +3686,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6d7975d-da86-429e-89e2-56125a7d1266")
+	)
+	(junction
+		(at 215.9 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ddee05-4fb9-4e24-aac2-f455a720616b")
 	)
 	(junction
 		(at 154.94 31.75)
@@ -3940,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 132.08) (xy 223.52 132.08)
+			(xy 212.09 132.08) (xy 215.9 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3957,6 +3926,16 @@
 			(type default)
 		)
 		(uuid "13f72f87-439b-411e-93b8-702c7be6890d")
+	)
+	(wire
+		(pts
+			(xy 215.9 133.35) (xy 215.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150a2726-3424-488e-853e-66604d0e427e")
 	)
 	(wire
 		(pts
@@ -4090,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 132.08) (xy 224.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d01b80-8c98-4684-9397-a3bfafd072ed")
+	)
+	(wire
+		(pts
 			(xy 43.18 40.64) (xy 43.18 36.83)
 		)
 		(stroke
@@ -4160,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 129.54) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ea7adf-4db4-4574-82fc-4eab48376909")
+	)
+	(wire
+		(pts
 			(xy 184.15 90.17) (xy 184.15 88.9)
 		)
 		(stroke
@@ -4197,16 +4196,6 @@
 			(type default)
 		)
 		(uuid "4e4f120b-4e09-43e7-82ca-636582078228")
-	)
-	(wire
-		(pts
-			(xy 223.52 132.08) (xy 231.14 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eac0f34-3312-4b66-b82f-1da3f9e35c2b")
 	)
 	(wire
 		(pts
@@ -4420,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 134.62) (xy 186.69 134.62)
+			(xy 176.53 132.08) (xy 186.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4627,6 +4616,16 @@
 			(type default)
 		)
 		(uuid "ba6ed546-edb7-47c2-b0ae-39a163c5d3fa")
+	)
+	(wire
+		(pts
+			(xy 212.09 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddc0202-6e5a-4a36-81aa-46b33785eeda")
 	)
 	(wire
 		(pts
@@ -4850,7 +4849,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 139.7) (xy 223.52 142.24)
+			(xy 215.9 140.97) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4867,6 +4866,16 @@
 			(type default)
 		)
 		(uuid "ed3049f3-6735-46f8-9027-8faa759849a8")
+	)
+	(wire
+		(pts
+			(xy 186.69 134.62) (xy 186.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b43644-9a44-44e5-966a-3ac2c64404b4")
 	)
 	(wire
 		(pts
@@ -6313,7 +6322,7 @@
 		(uuid "0c1da567-d797-43ec-bf49-08e761736ef9")
 	)
 	(label "BOOT0"
-		(at 231.14 132.08 180)
+		(at 224.79 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6333,7 +6342,7 @@
 		(uuid "332491cf-150b-4bca-b6a4-602391b643f0")
 	)
 	(label "Boot_GPIO"
-		(at 176.53 134.62 0)
+		(at 176.53 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6644,7 +6653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 142.24 0)
+		(at 186.69 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6652,7 +6661,7 @@
 		(dnp no)
 		(uuid "0f9710a6-6646-4456-ad04-3acc26f34f48")
 		(property "Reference" "#PWR072"
-			(at 201.93 148.59 0)
+			(at 186.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 146.304 0)
+			(at 186.69 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 142.24 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 142.24 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 142.24 0)
+			(at 186.69 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8282,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 142.24 0)
+		(at 215.9 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8281,7 +8290,7 @@
 		(dnp no)
 		(uuid "548bf7a7-7694-4a68-9816-682476f6010f")
 		(property "Reference" "#PWR0123"
-			(at 223.52 148.59 0)
+			(at 215.9 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8299,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 146.304 0)
+			(at 215.9 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 142.24 0)
+			(at 215.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 142.24 0)
+			(at 215.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 142.24 0)
+			(at 215.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,82 +9542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G32")
-		(at 201.93 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9872e9a8-bbc4-46d2-807d-84ba716f64c3")
-		(property "Reference" "U6"
-			(at 210.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHC1G32"
-			(at 210.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf?ts=1757395507106&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at 201.93 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single OR Gate, Low-Voltage CMOS"
-			(at 201.93 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "973fd620-a8e4-48f1-88f8-d8525abee50c")
-		)
-		(pin "2"
-			(uuid "e926d3a8-ed99-4956-bfd9-853949792b33")
-		)
-		(pin "3"
-			(uuid "d6672267-fe6f-4d11-8460-2b7a5d63fab9")
-		)
-		(pin "4"
-			(uuid "aa60a0fc-1e89-417c-970b-920fa60d50d7")
-		)
-		(pin "1"
-			(uuid "708f88fa-d955-4117-800a-38671445b955")
-		)
-		(instances
-			(project ""
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 154.94 35.56 0)
 		(unit 1)
@@ -9990,6 +9923,135 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SN74AHC1G32DBVR:SN74AHC1G32DBVR")
+		(at 186.69 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c14acdca-dd35-41e9-9e08-f967e10dacfe")
+		(property "Reference" "IC5"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC1G32DBVR"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 208.28 224.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahc1g32"
+			(at 208.28 324.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-OR Gate"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 208.28 524.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHC1G32DBVR"
+			(at 208.28 624.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHC1G32DBVR?qs=IEl3ej0IqwA4lppRQbnCFA%3D%3D"
+			(at 208.28 724.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 208.28 824.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHC1G32DBVR"
+			(at 208.28 924.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ef6f7dba-afcd-4b18-8ac2-fa475b222dd1")
+		)
+		(pin "1"
+			(uuid "b46a2f26-a077-4e67-be96-aa92cc64a91d")
+		)
+		(pin "2"
+			(uuid "dea860f2-bb91-4174-ba00-044e38a28246")
+		)
+		(pin "4"
+			(uuid "0f0601f2-39bd-4558-8d46-ea5fa691a992")
+		)
+		(pin "5"
+			(uuid "d08193c9-9641-474d-9ce9-a5924228c875")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/ab38cece-3385-4a36-918e-60632a85b718"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -10778,7 +10840,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 201.93 121.92 0)
+		(at 215.9 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10786,7 +10848,7 @@
 		(dnp no)
 		(uuid "ef2c6dcb-eb5f-4aaf-b947-5b3014b8bed3")
 		(property "Reference" "#PWR069"
-			(at 201.93 125.73 0)
+			(at 215.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +10857,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 200.914 118.364 0)
+			(at 214.884 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +10865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 121.92 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 121.92 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +10883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 201.93 121.92 0)
+			(at 215.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +10971,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 223.52 135.89 270)
+		(at 215.9 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10918,7 +10980,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6b4e32a-03f7-49b1-9403-aa7b3a623e68")
 		(property "Reference" "D18"
-			(at 226.06 134.6199 90)
+			(at 218.44 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10989,7 @@
 			)
 		)
 		(property "Value" "TVS"
-			(at 226.06 137.1599 90)
+			(at 218.44 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,7 +10998,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 223.52 135.89 0)
+			(at 215.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +11007,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf3?assetguid=2e80cd26-b0c3-442f-9d77-27a283ccff4f"
-			(at 223.52 135.89 0)
+			(at 215.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +11016,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 223.52 135.89 0)
+			(at 215.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10963,7 +11025,7 @@
 			)
 		)
 		(property "P/N" "SMF3.3"
-			(at 223.52 135.89 90)
+			(at 215.9 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
