@@ -1733,7 +1733,7 @@
 	(symbol
 		(lib_name "Logo_Placeholder_1")
 		(lib_id "utsvt-misc:Logo_Placeholder")
-		(at 120.65 72.39 0)
+		(at 121.92 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1742,7 +1742,7 @@
 		(fields_autoplaced yes)
 		(uuid "74f16591-b6cb-4694-8797-3b3691005ecd")
 		(property "Reference" "LOGO1"
-			(at 120.65 68.58 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 			)
 		)
 		(property "Value" "logo placeholder"
-			(at 124.46 72.3899 0)
+			(at 125.73 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1760,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Logos:LHRs_LOGO"
-			(at 120.65 70.485 0)
+			(at 121.92 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 70.485 0)
+			(at 121.92 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1778,7 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
-			(at 120.65 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 120.65 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 			)
 		)
 		(property "p/n" ""
-			(at 120.65 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 66.04 40.64 0)
 			(effects
 				(font
