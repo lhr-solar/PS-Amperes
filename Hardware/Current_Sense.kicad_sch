@@ -1870,15 +1870,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WSBS8518L2500JK:WSBS8518L2500JK"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "WSBS8518L2500JKM4:WSBS8518L2500JKM4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 13.97 6.35 0)
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1886,8 +1883,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "WSBS8518L2500JK"
-				(at 13.97 3.81 0)
+			(property "Value" "WSBS8518L2500JKM4"
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1895,18 +1892,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "WSBS8518L2500JK"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/30134/wsbs8518.pdf"
-				(at 13.97 -196.19 0)
+			(property "Footprint" "WSBS8518L2500JKM4"
+				(at 19.05 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1915,7 +1902,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Current Sense Resistors - Through Hole 36watt 250 micro-ohm 5% Battery Shunt"
+			(property "Datasheet" ""
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Metal Strip Battery Shunt Resistor With M4 Tapped Holes Very Low Value (50 u, 100 u, 125 u, and 250 u)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1924,8 +1921,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "3.1"
-				(at 13.97 -396.19 0)
+			(property "Height" "3"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1934,8 +1931,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "71-WSBS8518L2500JK"
-				(at 13.97 -496.19 0)
+			(property "Mouser Part Number" "71-WSBS8518L2500JKM4"
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1944,8 +1941,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSBS8518L2500JK?qs=i2mp%2Fn9EmlJ0b%2F4LBxCPeA%3D%3D"
-				(at 13.97 -596.19 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSBS8518L2500JKM4?qs=BZBei1rCqCBDT%2FHsm0OnWA%3D%3D"
+				(at 19.05 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1955,7 +1952,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Vishay"
-				(at 13.97 -696.19 0)
+				(at 19.05 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1964,8 +1961,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "WSBS8518L2500JK"
-				(at 13.97 -796.19 0)
+			(property "Manufacturer_Part_Number" "WSBS8518L2500JKM4"
+				(at 19.05 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1974,10 +1971,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "WSBS8518L2500JK_1_1"
+			(symbol "WSBS8518L2500JKM4_1_1"
 				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1988,6 +1985,24 @@
 				)
 				(pin passive line
 					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -2005,7 +2020,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -2015,6 +2030,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2579,12 +2612,14 @@
 		)
 		(uuid "701cf73b-81fc-4030-b51e-07661512b334")
 	)
-	(text "250 uOhm"
+	(text "250 \nuOhm"
 		(exclude_from_sim no)
-		(at 35.052 44.704 0)
+		(at 28.448 46.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "795f3aa6-29aa-45e9-99db-82edaede3e0f")
@@ -2675,7 +2710,7 @@
 	)
 	(text "Expected current range: -32A to +70A\n=> Voltage range: -8 to 17.5 mV"
 		(exclude_from_sim no)
-		(at 55.88 43.18 0)
+		(at 56.896 32.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,6 +2739,18 @@
 			)
 		)
 		(uuid "f8727070-d56c-48c1-b935-54fa24c1089b")
+	)
+	(text "Footprint is M4 version; edit it to have M3 holes"
+		(exclude_from_sim no)
+		(at 17.78 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 8 29 1)
+			)
+			(justify left top)
+		)
+		(uuid "f99b6dba-99a9-4f13-a1f4-8a065798eedf")
 	)
 	(junction
 		(at 29.21 154.94)
@@ -2888,6 +2935,14 @@
 	(no_connect
 		(at 138.43 46.99)
 		(uuid "02a15e34-3555-4e00-b2cc-d9f80688f131")
+	)
+	(no_connect
+		(at 40.64 43.18)
+		(uuid "a160d4e0-9ce6-43e5-9f4e-c72825f39e04")
+	)
+	(no_connect
+		(at 40.64 50.8)
+		(uuid "d1f59a63-0eb1-4cff-9cc9-b6b13e72da10")
 	)
 	(wire
 		(pts
@@ -3221,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 35.56) (xy 39.37 35.56)
+			(xy 40.64 45.72) (xy 50.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 53.34) (xy 39.37 53.34)
+			(xy 40.64 48.26) (xy 50.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5477,7 +5532,7 @@
 		(uuid "1e424cd0-8bcb-42c1-875e-d731deaa3860")
 	)
 	(label "SHUNT-"
-		(at 39.37 53.34 180)
+		(at 50.8 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5567,7 +5622,7 @@
 		(uuid "6da82b1a-5091-4170-b912-2445c2f47701")
 	)
 	(label "SHUNT+"
-		(at 39.37 35.56 180)
+		(at 50.8 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5678,6 +5733,133 @@
 			(justify left)
 		)
 		(uuid "c1a0941b-2beb-4f57-a1cf-991b58c5b3c1")
+	)
+	(symbol
+		(lib_id "WSBS8518L2500JKM4:WSBS8518L2500JKM4")
+		(at 40.64 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f66666-46a5-47c2-852d-27a954260c71")
+		(property "Reference" "R39"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSBS8518L2500JTP3"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WSBS8518L2500JKM4"
+			(at 21.59 138.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/30392/wsbs8518p3.pdf"
+			(at 21.59 238.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Metal Strip Battery Shunt Resistor With M4 Tapped Holes Very Low Value (50 u, 100 u, 125 u, and 250 u)"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3"
+			(at 21.59 438.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-WSBS8518L2500JTP3"
+			(at 21.59 538.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSBS8518L2500JKM4?qs=BZBei1rCqCBDT%2FHsm0OnWA%3D%3D"
+			(at 21.59 638.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 21.59 738.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WSBS8518L2500JTP3"
+			(at 21.59 838.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0edd1783-e196-4e0f-b010-e387c88a3cac")
+		)
+		(pin "MH2"
+			(uuid "b5d879aa-db17-484c-bbad-7d575614f198")
+		)
+		(pin "MH1"
+			(uuid "65ae1d3d-3f5a-4843-9189-18739d879710")
+		)
+		(pin "2"
+			(uuid "195a82e6-0381-4523-9597-e84d4cb7f826")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -8108,7 +8290,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 35.56 270)
+		(at 50.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8117,7 +8299,7 @@
 		(fields_autoplaced yes)
 		(uuid "96b497c1-23fa-4788-9226-115254d42202")
 		(property "Reference" "TP10"
-			(at 44.45 34.2899 90)
+			(at 53.34 41.1479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8308,7 @@
 			)
 		)
 		(property "Value" "SHUNT+"
-			(at 44.45 36.8299 90)
+			(at 53.34 43.6879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 39.37 40.64 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 40.64 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8335,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 35.56 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,128 +9462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WSBS8518L2500JK:WSBS8518L2500JK")
-		(at 27.94 35.56 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de05f622-4128-4fb1-9582-ecb1520ed70d")
-		(property "Reference" "R24"
-			(at 25.4 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Shunt"
-			(at 25.4 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Parts:WSBS8518L2500JK"
-			(at 124.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/30134/wsbs8518.pdf"
-			(at 224.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Resistors - Through Hole 36watt 250 micro-ohm 5% Battery Shunt"
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.1"
-			(at 424.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-WSBS8518L2500JK"
-			(at 524.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSBS8518L2500JK?qs=i2mp%2Fn9EmlJ0b%2F4LBxCPeA%3D%3D"
-			(at 624.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 724.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "WSBS8518L2500JK"
-			(at 824.13 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d78edb17-52d9-4d6e-9704-0363ed08a638")
-		)
-		(pin "2"
-			(uuid "7c8bf2bc-cbc4-4480-b3a0-94d091ae4da7")
-		)
-		(instances
-			(project ""
-				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 154.94 90.17 0)
 		(unit 1)
@@ -9538,7 +9598,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 53.34 270)
+		(at 50.8 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9547,25 +9607,25 @@
 		(fields_autoplaced yes)
 		(uuid "efa1d53f-9fd6-44e4-ba1b-374a54457655")
 		(property "Reference" "TP11"
-			(at 44.45 52.0699 90)
+			(at 53.34 50.2919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SHUNT-"
-			(at 44.45 54.6099 90)
+			(at 53.34 52.8319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 39.37 58.42 0)
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 58.42 0)
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9643,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 53.34 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

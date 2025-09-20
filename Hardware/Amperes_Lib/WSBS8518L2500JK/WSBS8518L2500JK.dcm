@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP WSBS8518L2500JK
-D Current Sense Resistors - Through Hole 36watt 250 micro-ohm 5% Battery Shunt
-K
-F https://www.vishay.com/docs/30134/wsbs8518.pdf
-$ENDCMP
-#
-#End Doc Library
