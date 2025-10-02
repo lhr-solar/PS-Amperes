@@ -864,7 +864,7 @@
 		)
 		(uuid "7c37b236-3057-4032-9536-f30fce129b98")
 	)
-	(text "Current measuring board for battery\n\nBattery Current Range:\n* Charge (-): 32A thru Elcon; max 54A from cell\n* Discharge (+): 70A\nI_OUT Range: 0.45 to 3 V (for -32 to 70A range)\n\nMax Measurable Current Range: -44 to 80A\nMax I_OUT Range: 0.1 - 3.2 V\n"
+	(text "Current measuring board for battery\n\nBattery Current Range:\n* Charge (-): 32A thru Elcon; max 54A to cell\n* Discharge (+): 70A\nI_OUT Range: 0.45 - 3 V (for -32 to 70A range)\n\nMax Measurable Current Range: -44 to 80A\nwith corresponding I_OUT Range: 0.1 - 3.2 V\n"
 		(exclude_from_sim no)
 		(at 17.78 111.76 0)
 		(effects

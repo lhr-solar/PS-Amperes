@@ -3207,6 +3207,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 138.43) (xy 199.39 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1640d5b7-f2d2-457a-a46f-5b8f512f64e4")
+	)
+	(wire
+		(pts
 			(xy 130.81 35.56) (xy 130.81 39.37)
 		)
 		(stroke
@@ -6200,6 +6210,73 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/3b2a70f8-48f8-45b9-b0fe-085893d574c0"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4612a2aa-5383-4edf-a083-45b43b7cac3a")
+		(property "Reference" "TP15"
+			(at 200.914 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 137.4141 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bd6082-5e19-4359-91f3-66f778479d2e")
+		)
+		(instances
+			(project "PS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/3b2a70f8-48f8-45b9-b0fe-085893d574c0"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -9593,6 +9670,72 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/3b2a70f8-48f8-45b9-b0fe-085893d574c0"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b461f384-510b-49d2-8f74-be2c4e01e804")
+		(property "Reference" "#PWR040"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e894df6-88f6-4bfb-8689-e5115e1ae99b")
+		)
+		(instances
+			(project "PS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/3b2a70f8-48f8-45b9-b0fe-085893d574c0"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
