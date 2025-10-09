@@ -5976,6 +5976,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASU063SB7102KFNA01"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU063SB7102KFNA01"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a24152f-2aaf-468f-ac5e-5cea59b7ddf3")
 		)
@@ -6370,6 +6388,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -6936,6 +6972,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b810df24-5969-46cc-aeaa-90e125c61549")
 		)
@@ -7275,6 +7329,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2be311b2-846b-4154-8684-1b2b6b9529e5")
 		)
@@ -7337,6 +7409,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 144.78 48.26 0)
 			(effects
 				(font
@@ -7487,6 +7577,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW06034K30FKEA"
+			(at 208.28 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06034K30FKEA"
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,6 +7895,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASU168SB5105KTNA01"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU168SB5105KTNA01"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "34bfec4e-7a49-4c3d-8d83-69bcaa693b9f")
 		)
@@ -8064,6 +8190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "GRM21BR61H106KE43K"
+			(at 175.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1bcd04f-9f8b-4aa2-bf0d-c602765d2b64")
 		)
@@ -8266,6 +8401,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASU168SB5105KTNA01"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU168SB5105KTNA01"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "216a88cc-0d1d-4f63-baae-382566b3fe9a")
 		)
@@ -8459,6 +8612,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASU168SB5105KTNA01"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU168SB5105KTNA01"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -8946,6 +9117,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 185.42 49.53 0)
 			(effects
 				(font
@@ -9506,6 +9695,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4798be55-3c13-495e-b69c-94fa43a1b91c")
 		)
@@ -9701,6 +9908,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASU168SB5105KTNA01"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASU168SB5105KTNA01"
 			(at 154.94 90.17 0)
 			(effects
 				(font

@@ -6982,7 +6982,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 184.15 82.55 0)
 			(effects
 				(font
@@ -7001,6 +7001,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 184.15 82.55 0)
 			(effects
 				(font
@@ -7088,7 +7097,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 259.08 38.1 0)
 			(effects
 				(font
@@ -7107,6 +7116,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 259.08 38.1 0)
 			(effects
 				(font
@@ -7259,7 +7277,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 190.5 35.56 0)
 			(effects
 				(font
@@ -7278,6 +7296,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 190.5 35.56 0)
 			(effects
 				(font
@@ -8158,6 +8185,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW0603120RFKEC "
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b380a99-b144-45c5-a168-6d2cec1c40b4")
 		)
@@ -8236,7 +8281,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C120K5HACTU"
+		(property "P/N" "06035U120FAT2A"
 			(at 29.21 46.99 0)
 			(effects
 				(font
@@ -8256,6 +8301,15 @@
 		)
 		(property "p/n" ""
 			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "06035U120FAT2A"
+			(at 29.21 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +8541,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 210.82 35.56 0)
 			(effects
 				(font
@@ -8506,6 +8560,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 210.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 210.82 35.56 0)
 			(effects
 				(font
@@ -8815,6 +8878,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW0603120RFKEC "
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "825bdbdc-c058-40fe-80d6-2a25ac7f81ce")
 		)
@@ -8959,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 166.37 35.56 0)
 			(effects
 				(font
@@ -8978,6 +9059,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 166.37 35.56 0)
 			(effects
 				(font
@@ -9246,6 +9336,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 262.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW0603120RFKEC "
+			(at 262.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603120RFKEC "
 			(at 262.89 71.12 0)
 			(effects
 				(font
@@ -9589,7 +9697,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 226.06 35.56 0)
 			(effects
 				(font
@@ -9608,6 +9716,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 226.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 226.06 35.56 0)
 			(effects
 				(font
@@ -9752,6 +9869,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW0603120RFKEC "
+			(at 214.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603120RFKEC "
+			(at 214.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ad62c56-5aeb-4a8c-96e8-1d5e557b0e27")
 		)
@@ -9778,7 +9913,7 @@
 		(fields_autoplaced yes)
 		(uuid "b89b4df6-e12d-4247-becd-dfd79e9f0827")
 		(property "Reference" "R10"
-			(at 198.12 70.485 0)
+			(at 198.12 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,8 +9921,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 198.12 73.025 0)
+		(property "Value" "10k"
+			(at 198.12 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +9966,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW080510K0FKEAC"
+		(property "P/N" "CRCW060310K0FKEI "
 			(at 195.58 71.12 0)
 			(effects
 				(font
@@ -9850,6 +9985,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW060310K0FKEI "
 			(at 195.58 71.12 0)
 			(effects
 				(font
@@ -9937,7 +10081,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -9956,6 +10100,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -10256,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C120K5HACTU"
+		(property "P/N" "06035U120FAT2A"
 			(at 29.21 36.83 0)
 			(effects
 				(font
@@ -10276,6 +10429,15 @@
 		)
 		(property "p/n" ""
 			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "06035U120FAT2A"
+			(at 29.21 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,6 +11265,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "08055D475KAT4A"
+			(at 154.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2faafc7a-b39b-4cbb-8837-40b191b8599b")
 		)
@@ -11238,6 +11409,15 @@
 		)
 		(property "P/N" "CRCW060310K0FKEI "
 			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW060310K0FKEI "
+			(at 220.98 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +11582,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C104M5RACTU"
+		(property "P/N" "MLASH168SB7104KTNA01"
 			(at 213.36 137.16 0)
 			(effects
 				(font
@@ -11421,6 +11601,15 @@
 			)
 		)
 		(property "p/n" ""
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
 			(at 213.36 137.16 0)
 			(effects
 				(font

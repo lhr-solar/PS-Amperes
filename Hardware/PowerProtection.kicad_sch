@@ -5691,6 +5691,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASH168SB7104KTNA01"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78573289-6fab-4b8f-9ae6-9e637be21915")
 		)
@@ -5835,6 +5844,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW060345K3FKEAHP "
+			(at 21.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c73572f-767d-468f-98c1-0483ccd11c77")
 		)
@@ -5914,6 +5932,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW06032K10FKEA "
+			(at 21.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5977af2-096c-4837-9d24-148734a5845f")
 		)
@@ -5984,6 +6011,15 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "GRM21BR61H106KE43K"
 			(at 29.21 36.83 0)
 			(effects
 				(font
@@ -6181,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19K"
+		(property "Value" "19k"
 			(at 144.78 38.0999 0)
 			(effects
 				(font
@@ -6371,6 +6407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW060310K0FKEI "
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a493cca-c37a-42b9-ae9a-0f4eb0201032")
 		)
@@ -6442,6 +6487,15 @@
 			)
 		)
 		(property "P/N" "CRCW0603402KFKEAC "
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW0603402KFKEAC "
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -6583,7 +6637,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW0603100KFKEE "
+		(property "P/N" "CRCW0603100KFKEE"
+			(at 153.67 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW0603100KFKEE"
 			(at 153.67 30.48 90)
 			(effects
 				(font
@@ -6802,6 +6865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW060310K0FKEI "
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dca7f3d-1b71-4e6a-8c89-2127d2ff62ac")
 		)
@@ -6872,6 +6944,15 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "GRM21BR61H106KE43K"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -6951,6 +7032,15 @@
 			)
 		)
 		(property "P/N" "CRCW0603590RFKEA"
+			(at 21.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CRCW0603590RFKEA"
 			(at 21.59 113.03 0)
 			(effects
 				(font
@@ -7248,6 +7338,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CRCW060310K0FKEI "
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d723f259-2105-447a-97e9-3b4ce248a6a4")
 		)
@@ -7405,6 +7504,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "MLASU168SB5105KTNA01"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "416b1fc3-2b3c-4492-abf7-3174b081911c")
 		)
@@ -7475,6 +7583,15 @@
 			)
 		)
 		(property "P/N" "MLASU168SB5105KTNA01"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MLASU168SB5105KTNA01"
 			(at 40.64 36.83 0)
 			(effects
 				(font
