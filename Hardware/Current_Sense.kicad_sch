@@ -3177,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 76.2) (xy 72.39 76.2)
+			(xy 57.15 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3497,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 165.1 81.28)
+			(xy 152.4 81.28) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7618,6 +7618,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57d9e40d-ee6f-498a-b57c-1eb86181556b")
+		(property "Reference" "TP18"
+			(at 168.91 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Out+"
+			(at 168.91 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb6c8de8-b7b9-4859-8404-66a0db16e990")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 262.89 87.63 270)
 		(unit 1)
@@ -8775,6 +8842,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "105309-1202"
+			(at 76.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f67dcfc0-874d-44ab-84d6-39584a24a3d6")
 		)
@@ -8952,7 +9028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
+		(property "Footprint" "Parts:CAS220TB"
 			(at 74.93 167.64 0)
 			(effects
 				(font
@@ -9521,7 +9597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DPDT_CK_JS202011JCQN"
+		(property "Footprint" "Parts:CAS220TB"
 			(at 74.93 152.4 0)
 			(effects
 				(font
@@ -10143,6 +10219,73 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8fcebd6-9724-414c-8727-8bec568dd761")
+		(property "Reference" "TP17"
+			(at 77.47 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sense+"
+			(at 77.47 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef7f358e-f9a7-40d7-8102-fe444869d59a")
+		)
+		(instances
+			(project ""
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a/7e38ba4d-a54c-4f69-a074-7d0a3dae713a"
+					(reference "TP17")
 					(unit 1)
 				)
 			)

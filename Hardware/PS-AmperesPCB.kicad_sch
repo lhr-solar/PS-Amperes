@@ -1034,6 +1034,12 @@
 		(color 0 0 0 0)
 		(uuid "bef5970b-85e6-43f9-af5b-0ea1d1d1b148")
 	)
+	(junction
+		(at 66.04 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9cbeee8-c447-461a-905d-65c2902b938a")
+	)
 	(wire
 		(pts
 			(xy 93.98 25.4) (xy 99.06 25.4)
@@ -1116,6 +1122,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 25.4) (xy 71.12 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98692fa7-adef-40aa-b829-9d69c5ce00b2")
+	)
+	(wire
+		(pts
 			(xy 181.61 36.83) (xy 181.61 38.1)
 		)
 		(stroke
@@ -1123,6 +1139,16 @@
 			(type default)
 		)
 		(uuid "9a5fad3d-19bd-4cfb-8a02-3a808b42fe49")
+	)
+	(wire
+		(pts
+			(xy 66.04 22.86) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffe9cdb-8844-4941-a7d1-4a80a77b5f21")
 	)
 	(wire
 		(pts
@@ -1136,7 +1162,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 25.4) (xy 71.12 25.4)
+			(xy 57.15 25.4) (xy 66.04 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1579,6 +1605,71 @@
 			(project "BPS-AmperesPCB"
 				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448a2608-e1ee-463c-b8ab-2aaf5c675227")
+		(property "Reference" "TP19"
+			(at 62.738 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IMON"
+			(at 62.738 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 66.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1572303e-b2a0-40b3-872b-2fbdbe6ddf56")
+		)
+		(instances
+			(project "PS-AmperesPCB"
+				(path "/a452d214-ea00-440d-a445-5d6103fda43a"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -2180,7 +2271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
 			(at 66.04 40.64 0)
 			(effects
 				(font
