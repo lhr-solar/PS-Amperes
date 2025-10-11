@@ -5080,6 +5080,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "SS24FL"
+			(at 101.6 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab4e65fd-8d55-4d9b-9beb-63d12074869e")
 		)
@@ -5160,6 +5169,15 @@
 			)
 		)
 		(property "P/N" "XL-1608UBC-06A"
+			(at 245.11 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "XL-1608UBC-06A"
 			(at 245.11 91.44 90)
 			(effects
 				(font
@@ -5882,6 +5900,15 @@
 			)
 		)
 		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LT1963AEST-3.3#TRPBF"
 			(at 146.05 160.02 0)
 			(effects
 				(font
@@ -6712,6 +6739,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 215.9 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41036a26-751f-47eb-836f-9312465b5fea")
 		)
@@ -7328,6 +7364,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 201.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85f377bc-8147-4840-a819-8e25bb84ace3")
 		)
@@ -7606,6 +7651,15 @@
 			)
 		)
 		(property "Description" "3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LT1963AEST-3.3#TRPBF"
 			(at 114.3 41.91 0)
 			(effects
 				(font
@@ -8306,6 +8360,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "1769205341"
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "1527025a-d41b-4fd6-a62a-876b4044c3d3")
 		)
@@ -8745,6 +8808,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 186.69 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,6 +11190,15 @@
 			)
 		)
 		(property "P/N" "NCD0603R1"
+			(at 229.87 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "NCD0603R1"
 			(at 229.87 91.44 90)
 			(effects
 				(font

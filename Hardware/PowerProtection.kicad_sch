@@ -6253,7 +6253,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "WFCP0603R0240FE66"
+		(property "P/N" "MCT06030C1912FP500"
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "MCT06030C1912FP500"
 			(at 142.24 36.83 0)
 			(effects
 				(font

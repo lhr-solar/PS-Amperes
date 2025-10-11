@@ -2544,6 +2544,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "1053091202"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48bdb4c6-05fb-4bd7-963d-e61e772363ec")
 		)
@@ -2695,6 +2704,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "XL-1608UBC-06A"
+			(at 127 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 127 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)

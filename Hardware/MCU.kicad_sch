@@ -7897,6 +7897,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "NCD0603R1"
+			(at 232.41 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c7df22f-1aaf-424b-af84-98a438be0c8f")
 		)
@@ -7977,6 +7986,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 214.63 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,6 +8412,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "CJS-1200TA "
+			(at 171.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "969e170e-48a2-425f-a26e-b2cd786664c8")
 		)
@@ -8730,6 +8757,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 247.65 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da3a71a6-2992-4593-a10c-d8b2b28e4f5a")
 		)
@@ -8800,6 +8836,15 @@
 			)
 		)
 		(property "P/N" "TL3365AF180QG"
+			(at 195.58 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "TL3365AF180QG"
 			(at 195.58 82.55 90)
 			(effects
 				(font
@@ -9508,6 +9553,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 262.89 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "XL-1608UBC-06A"
+			(at 262.89 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,6 +10288,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SN74AHC1G32DBVR"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

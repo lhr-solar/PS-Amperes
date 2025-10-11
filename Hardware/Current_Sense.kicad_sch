@@ -5891,13 +5891,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "WSBS8518L2500JTP3"
+		(property "P/N" "WSBS8518L2500JTP3"
 			(at 21.59 836.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "WSBS8518L2500JTP3"
+			(at 40.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6122,6 +6131,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 29.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "0603WAF510JT5E"
+			(at 29.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0603WAF510JT5E"
 			(at 29.21 172.72 0)
 			(effects
 				(font
@@ -6885,6 +6912,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "INA241A4IDR"
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "783b6f64-bd5d-4071-9022-27ffc58fdedc")
 		)
@@ -7242,6 +7278,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TLV9002QDRQ1"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ad616ab-dafb-4de1-ac09-6ad88fb9140b")
 		)
@@ -7498,6 +7543,15 @@
 		)
 		(property "Description" "1.25V, Ultra Low-Power, High-Precision Voltage Reference, SOT-23-6"
 			(at 161.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "REF35125QDBVR"
+			(at 161.29 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,6 +8160,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "0603WAJ0332T5E"
+			(at 200.66 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0603WAJ0332T5E"
+			(at 200.66 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,6 +8992,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mfg" "0603WAF3402T5E"
+			(at 29.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0603WAF3402T5E"
+			(at 29.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8b296d7-4381-4207-bbc1-ec1ea49ecb37")
 		)
@@ -9037,7 +9127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
 			(at 74.93 167.64 0)
 			(effects
 				(font
@@ -9047,6 +9137,24 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CAS-220TB"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CAS-220TB"
 			(at 74.93 167.64 0)
 			(effects
 				(font
@@ -9407,6 +9515,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "AMC1350DWVR"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "ac9f18c5-b92a-4a57-907d-aac033361b48")
 		)
@@ -9606,7 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
 			(at 74.93 152.4 0)
 			(effects
 				(font
@@ -9616,6 +9733,24 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CAS-220TB"
+			(at 74.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "CAS-220TB"
 			(at 74.93 152.4 0)
 			(effects
 				(font
@@ -9849,6 +9984,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 204.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "0603WAF8201T5E"
+			(at 204.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0603WAF8201T5E"
 			(at 204.47 74.93 0)
 			(effects
 				(font
