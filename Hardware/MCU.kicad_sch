@@ -9618,7 +9618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/184/1/ABM3.pdf"
 			(at 38.1 41.91 0)
 			(effects
 				(font
