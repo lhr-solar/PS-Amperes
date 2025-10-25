@@ -3,7 +3,7 @@
 void Amperes_Task(void *pvParameters) {
     while (1) {
         // Get ADC reading
-        uint32_t reading = 0;
+        int32_t reading = 0;
         Amperes_GetReading(&reading);
 
         // Convert ADC value into current reading

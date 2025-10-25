@@ -6,10 +6,9 @@
 #include "CAN.h"
 
 /**
- * Drivers for Amperes Board
- * - ADC
- * - CAN
- * STM32L431CBT
+ * Driver for Amperes Board (STM32L431CBT6)
+ * - Receive data from ADC
+ * - Send data over CAN
  */
 
 #ifdef STM32L4xx
@@ -37,9 +36,15 @@ typedef enum AmperesStatus {    // TODO: better states
 bool Amperes_Init();
 
 /**
- * @brief 
+ * @brief Get reading from ADC
+ * @param reading Variable to hold reading
+ * @retval Status: Fail, Ok (TODO: )
  */
-AmperesStatus_t Amperes_GetReading(uint32_t *reading);
+AmperesStatus_t Amperes_GetReading(int32_t *reading);
 
+/**
+ * @brief Send reading over CAN
+ */
+AmperesStatus_t Amperes_SendCAN();
 
 #endif // AMPERES_H
