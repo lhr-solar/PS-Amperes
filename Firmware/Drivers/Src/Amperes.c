@@ -169,7 +169,7 @@ AmperesStatus_t Amperes_GetReading(int32_t *current_reading) {
     // Read ADC value from queue
     int32_t adc_value = 0;
     if (xQueueReceive(adc_queue, &adc_value, 0) == pdPASS) {
-        *current_reading = AMPERES_ADC_TO_CURRENT(adc_value);
+        *current_reading = (int8_t) AMPERES_ADC_TO_CURRENT(adc_value);
         return AMPERES_OK;
     } else {
         return AMPERES_QUEUE_FULL;
@@ -177,8 +177,26 @@ AmperesStatus_t Amperes_GetReading(int32_t *current_reading) {
 }
 
 
-AmperesStatus_t Amperes_SendCAN(uint32_t reading) {
+AmperesStatus_t Amperes_SendCAN(int32_t data) {
+    // Create CAN payload
+    CAN_TxHeaderTypeDef tx_header = {0};
+    tx_header.StdId = AMPERES_STD_ID;
+    tx_header.RTR = CAN_RTR_DATA;
+    tx_header.IDE = CAN_ID_STD;
+    tx_header.DLC = 2;
+    tx_header.TransmitGlobalTime = DISABLE;
 
+    // Store 32b (signed) data into 4x8b (unsigned) blocks; LSB in element 0
+    uint8_t tx_data[8] = {0};
+    tx_data[0] = (uint8_t) (data & 0xFF);
+    tx_data[1] = (uint8_t) ((data >> 8) & 0xFF);
+    tx_data[2] = (uint8_t) ((data >> 16) & 0xFF);
+    tx_data[3] = (uint8_t) ((data >> 27) & 0xFF);
 
+    // Send payload
+    if (can_send(hcan1, &tx_header, tx_data, portMAX_DELAY) != CAN_SENT) {
+        return AMPERES_CAN_SEND_FAIL;
+    }
+    
     return AMPERES_OK;
 }

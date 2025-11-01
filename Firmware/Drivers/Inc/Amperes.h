@@ -46,6 +46,13 @@
 
 
 /** ================================================================
+ *  CAN
+ * ================================================================ */
+#define AMPERES_STD_ID 0x1
+
+
+
+/** ================================================================
  *  Amperes Functions
  * ================================================================ */
 
@@ -53,26 +60,30 @@ typedef enum AmperesStatus {    // TODO: better states
     AMPERES_OK,
     AMPERES_INIT_FAIL,
     AMPERES_ADC_FAIL,
-    AMPERES_QUEUE_FULL
+    AMPERES_QUEUE_FULL,
+    AMPERES_CAN_SEND_FAIL
 } AmperesStatus_t;
 
 /**
  * @brief Initializes ADC and CAN for Amperes
- * @retval Status: INIT_FAIL or OK
+ * @retval Status: AMPERES_INIT_FAIL or OK
  */
 AmperesStatus_t Amperes_Init();
 
 /**
- * @brief Get reading from ADC
- * @param current_reading Variable to hold amperes reading 
- * @retval Status: ADC_FAIL, QUEUE_FULL, or OK
+ * @brief Get current reading (in milliamps) from Amperes ADC;
+ *        expected range is -50.000 to +80.00 amps.
+ * @param current_reading Variable to hold current reading 
+ * @retval Status: AMPERES_ADC_FAIL, QUEUE_FULL, or OK
  */
 AmperesStatus_t Amperes_GetReading(int32_t *current_reading);
 
 
 /**
- * @brief Send reading over CAN
+ * @brief Send Amperes data over CAN
+ * @param data Amperes current data to send over CAN
+ * @retval Status: AMPERES_CAN_SEND_FAIL or OK
  */
-AmperesStatus_t Amperes_SendCAN(uint32_t reading);
+AmperesStatus_t Amperes_SendCAN(int32_t data);
 
 #endif // AMPERES_H
