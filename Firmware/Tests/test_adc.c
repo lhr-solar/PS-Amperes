@@ -11,13 +11,9 @@ void Task_ReadADC(void *pvParameters) {
     while(1) {
         AmperesStatus_t stat = Amperes_GetReading(&reading);
         if (stat != AMPERES_OK) error_handler();
-        
-        // using current value: approx -50 to 82 A
-        if (reading < 0) reading *= -1; // abs
-        reading *= 10;
 
         HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-        vTaskDelay(pdMS_TO_TICKS(reading));
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
