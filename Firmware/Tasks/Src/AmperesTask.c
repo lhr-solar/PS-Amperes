@@ -2,11 +2,11 @@
 
 void Amperes_Task(void *pvParameters) {
     while (1) {
-        // Get ADC reading
-        int32_t reading = 0;
-        Amperes_GetReading(&reading);
-
-        // Convert ADC value into current reading
+        // Get Amperes current reading
+        int32_t current_value;
+        if(Amperes_GetReading(&current_value) != AMPERES_OK) {
+            // do something or idk
+        }
 
         // Create CAN payload
         // CAN_TxHeaderTypeDef tx_header = {0};   

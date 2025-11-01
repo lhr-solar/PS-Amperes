@@ -1,19 +1,22 @@
 #include "Amperes.h"
 
-/** =======================================================
+/** ================================================================
  *  ADC Queue
- * ======================================================= */
+ * ================================================================ */
 // TODO: why size
 #ifndef ADC_QUEUE_LENGTH
     #define ADC_QUEUE_LENGTH 100    
 #endif
-#define ITEM_SIZE sizeof( uint32_t )
+#define ITEM_SIZE sizeof(uint32_t)
 
-QueueHandle_t amperes_q;
+QueueHandle_t adc_queue;
 uint8_t qStorage[ADC_QUEUE_LENGTH * ITEM_SIZE];
 static StaticQueue_t xStaticQueue;
 
 
+/** ================================================================
+ *  Local Functions
+ * ================================================================ */
 /**
  * @brief Override MSP GPIO init
  */
@@ -37,10 +40,9 @@ void HAL_ADC_MspGPIOInit(ADC_HandleTypeDef* hadc) {
     __HAL_RCC_GPIOA_CLK_ENABLE();
 }
 
-
 static bool Amperes_ADC_Init() {
     // Initialize queue
-    amperes_q = xQueueCreateStatic(ADC_QUEUE_LENGTH, ITEM_SIZE, qStorage, &xStaticQueue);
+    adc_queue = xQueueCreateStatic(ADC_QUEUE_LENGTH, ITEM_SIZE, qStorage, &xStaticQueue);
 
     // ADC init structure
     ADC_InitTypeDef init = {0};
@@ -81,80 +83,102 @@ static bool Amperes_ADC_Init() {
     init.DMAContinuousRequests = DISABLE;
     init.EOCSelection = ADC_EOC_SINGLE_CONV;
     #endif
-    
-    volatile adc_status_t s = adc_init(init, hadc1);
-    s+=0;
-    if (adc_init(init, hadc1) != ADC_OK) error_handler();
 
     // Initialize ADC
-    // if (adc_init(init, hadc1) != ADC_OK) return false;  // or call error handler?
+    volatile adc_status_t s = adc_init(init, hadc1);
+    s+=0;
+    if (s != ADC_OK) return false;
 
     // Debug
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+    #ifdef DEBUG
+        HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+    #endif
 
     return true;
 }
 
-// static bool Amperes_CAN_Init() {
-//     // Create filter
-//     CAN_FilterTypeDef  sFilterConfig;
-//     sFilterConfig.FilterBank = 0;
-//     sFilterConfig.FilterMode = CAN_FILTERMODE_IDMASK;
-//     sFilterConfig.FilterScale = CAN_FILTERSCALE_32BIT;
-//     sFilterConfig.FilterIdHigh = 0x0000;
-//     sFilterConfig.FilterIdLow = 0x0000;
-//     sFilterConfig.FilterMaskIdHigh = 0x0000;
-//     sFilterConfig.FilterMaskIdLow = 0x0000;
-//     sFilterConfig.FilterFIFOAssignment = CAN_RX_FIFO0;
-//     sFilterConfig.FilterActivation = ENABLE;
-//     sFilterConfig.SlaveStartFilterBank = 14;
+static bool Amperes_CAN_Init() {
+    // Create filter
+    CAN_FilterTypeDef  sFilterConfig;
+    sFilterConfig.FilterBank = 0;
+    sFilterConfig.FilterMode = CAN_FILTERMODE_IDMASK;
+    sFilterConfig.FilterScale = CAN_FILTERSCALE_32BIT;
+    sFilterConfig.FilterIdHigh = 0x0000;
+    sFilterConfig.FilterIdLow = 0x0000;
+    sFilterConfig.FilterMaskIdHigh = 0x0000;
+    sFilterConfig.FilterMaskIdLow = 0x0000;
+    sFilterConfig.FilterFIFOAssignment = CAN_RX_FIFO0;
+    sFilterConfig.FilterActivation = ENABLE;
+    sFilterConfig.SlaveStartFilterBank = 14;
 
-//     // setup can1 init
-//     hcan1->Init.Prescaler = 5;
-//     hcan1->Init.Mode = CAN_MODE_LOOPBACK;
-//     hcan1->Init.SyncJumpWidth = CAN_SJW_1TQ;
-//     hcan1->Init.TimeSeg1 = CAN_BS1_6TQ;
-//     hcan1->Init.TimeSeg2 = CAN_BS2_2TQ;
-//     hcan1->Init.TimeTriggeredMode = DISABLE;
-//     hcan1->Init.AutoBusOff = DISABLE;
-//     hcan1->Init.AutoWakeUp = DISABLE;
-//     hcan1->Init.AutoRetransmission = ENABLE;
-//     hcan1->Init.ReceiveFifoLocked = DISABLE;
+    // setup can1 init
+    hcan1->Init.Prescaler = 5;
+    hcan1->Init.Mode = CAN_MODE_LOOPBACK;
+    hcan1->Init.SyncJumpWidth = CAN_SJW_1TQ;
+    hcan1->Init.TimeSeg1 = CAN_BS1_6TQ;
+    hcan1->Init.TimeSeg2 = CAN_BS2_2TQ;
+    hcan1->Init.TimeTriggeredMode = DISABLE;
+    hcan1->Init.AutoBusOff = DISABLE;
+    hcan1->Init.AutoWakeUp = DISABLE;
+    hcan1->Init.AutoRetransmission = ENABLE;
+    hcan1->Init.ReceiveFifoLocked = DISABLE;
 
-//     // If TransmitFifoPriority is disabled, the hardware selects the mailbox based on the message ID priority. 
-//     // If enabled, the hardware uses a FIFO mechanism to select the mailbox based on the order of transmission requests.
-//     hcan1->Init.TransmitFifoPriority = ENABLE;
+    // If TransmitFifoPriority is disabled, the hardware selects the mailbox based on the message ID priority. 
+    // If enabled, the hardware uses a FIFO mechanism to select the mailbox based on the order of transmission requests.
+    hcan1->Init.TransmitFifoPriority = ENABLE;
 
-//     // initialize CAN1
-//     if (can_init(hcan1, &sFilterConfig) != CAN_OK) return false;    // or call error handler?
+    // initialize CAN1
+    if (can_init(hcan1, &sFilterConfig) != CAN_OK) return false;    // or call error handler?
 
-//     // Debug
+    // Debug
+    #ifdef DEBUG
 
+    #endif
     
-//     return true;
-// }
+    return true;
+}
 
 
-bool Amperes_Init() {
+/** ================================================================
+ *  Amperes Functions
+ * ================================================================ */
+
+AmperesStatus_t Amperes_Init() {
+    // Init HAL?
+    // if (HAL_Init() != HAL_OK) return AMPERES_INIT_FAIL;
+
     // Init ADC
-    if (!Amperes_ADC_Init()) return false;
+    if (!Amperes_ADC_Init()) return AMPERES_INIT_FAIL;
 
     // Init CAN
-    // if (!Amperes_CAN_Init()) return false;
+    if (!Amperes_CAN_Init()) return AMPERES_INIT_FAIL;
 
     // Start CAN
-    // if (can_start(hcan1) != CAN_OK) return false;
+    if (can_start(hcan1) != CAN_OK) return AMPERES_INIT_FAIL;
 
-    return true;
+    return AMPERES_OK;
 }
 
 
-AmperesStatus_t Amperes_GetReading(int32_t *reading) {
-    if (adc_read(AMPERES_CHANNEL, AMPERES_SAMPLE_TIME, hadc1, &amperes_q) != ADC_OK) {
-        return READING_FAIL;
+AmperesStatus_t Amperes_GetReading(int32_t *current_reading) {
+    // Read from ADC into queue
+    if (adc_read(AMPERES_CHANNEL, AMPERES_SAMPLE_TIME, hadc1, &adc_queue) != ADC_OK) {
+        return AMPERES_ADC_FAIL;
     }
-    if (xQueueReceive(amperes_q, reading, 0) == pdPASS) {
-        return READING_OK;
+
+    // Read ADC value from queue
+    int32_t adc_value = 0;
+    if (xQueueReceive(adc_queue, &adc_value, 0) == pdPASS) {
+        *current_reading = AMPERES_ADC_TO_CURRENT(adc_value);
+        return AMPERES_OK;
+    } else {
+        return AMPERES_QUEUE_FULL;
     }
-    return READING_FAIL;
+}
+
+
+AmperesStatus_t Amperes_SendCAN(uint32_t reading) {
+
+
+    return AMPERES_OK;
 }

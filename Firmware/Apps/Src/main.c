@@ -9,9 +9,6 @@ int main() {
     HAL_Init();
     SystemClock_Config();
 
-    // Init Amperes driver 
-    // if (!Amperes_Init()) error_handler();
-
     // Start Init Task
     xTaskCreateStatic(
         Task_Init,                  /* The function that implements the task. */

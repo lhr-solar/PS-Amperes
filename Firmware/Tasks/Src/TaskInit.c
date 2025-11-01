@@ -6,7 +6,7 @@ StackType_t  amperes_task_stack[configMINIMAL_STACK_SIZE];
 
 void Task_Init() {
     // Init Amperes: ADC and CAN
-    if (!Amperes_Init()) error_handler();
+    if (Amperes_Init() == AMPERES_INIT_FAIL) error_handler();
 
     // Init Amperes Task
     xTaskCreateStatic(
